@@ -12,7 +12,6 @@ import java.util.List;
  * method.
  *
  * @author Antoine
- *
  * @param <T>
  */
 public class ConsoleItemWriter<T> implements ItemWriter<T> {
@@ -26,6 +25,5 @@ public class ConsoleItemWriter<T> implements ItemWriter<T> {
             LOG.info(ToStringBuilder.reflectionToString(item));
         }
         LOG.trace("Console item writer end");
-
     }
 }

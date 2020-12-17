@@ -3,7 +3,6 @@ package com.snimma1.config.batch;
 import com.snimma1.config.readers.ReadersConfig;
 import com.snimma1.config.writers.WritersConfig;
 import com.snimma1.model.Post;
-import com.snimma1.processor.PersonItemProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -30,16 +29,6 @@ public class BatchConfig {
     @Autowired private WritersConfig writers;
 
     /**
-     * Test
-     *
-     * @return PersonItemProcessor Logic for job
-     */
-    @Bean
-    public PersonItemProcessor processor() {
-        return new PersonItemProcessor();
-    }
-
-    /**
      * Job pipeline
      *
      * @return Job - configured job
@@ -63,7 +52,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("step1")
                 .<Post, Post>chunk(10)
-                .reader(readers.readerXml())
+                .reader(readers.postsReader())
                 //                .processor(processor())
                 .writer(writers.consoleItemWriter())
                 .build();
