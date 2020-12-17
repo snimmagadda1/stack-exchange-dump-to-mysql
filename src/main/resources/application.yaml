@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: "jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1"
+    username: "user"
+    password: "pass"
+    schema: schema-base.sql
+
+#app:
+#  datasource:
+#    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+#    url: "jdbc:hsqldb:mem:appdb;DB_CLOSE_DELAY=-1"
+#    username: "user"
+#    password: "pass"
+#    schema: schema-base.sql
+
+
+import:
+  file:
+    csv: "import/persons.csv"
+    txt: "import/persons.txt"
+
+export:
+  file:
+    csv: "target/export/persons.csv"
+    txt: "target/export/persons.txt"
+
+#db:
+#  jdbc:
+#    driver: com.mysql.jdbc.Driver
+#    url: "jdbc:mysql://localhost:3306/batchjobs"
+#    user: "root"
+#    pass: "password"
+#  mem:
+#    script: "schema-base.sql"
