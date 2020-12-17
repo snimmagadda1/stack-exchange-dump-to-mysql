@@ -4,7 +4,7 @@ spring:
     url: "jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1"
     username: "user"
     password: "pass"
-    schema: schema-base.sql
+#    schema: schema-base.sql
 
 #app:
 #  datasource:

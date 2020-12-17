@@ -1,10 +1,9 @@
 package com.snimma1.processor;
 
+import com.snimma1.model.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;
-
-import com.snimma1.model.Person;
 /** @author snimmagadda1 Item processor transformation data */
 public class PersonItemProcessor implements ItemProcessor<Person, Person> {
 

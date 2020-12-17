@@ -1,5 +1,7 @@
 package com.snimma1.config.writers;
 
+import com.snimma1.custom.ConsoleItemWriter;
+import com.snimma1.model.Person;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor;
@@ -10,8 +12,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.io.FileSystemResource;
 
-import com.snimma1.model.Person;
-
 @Configuration
 @PropertySource("classpath:application.yaml")
 public class WritersConfig {
@@ -20,6 +20,11 @@ public class WritersConfig {
 
     @Value("${export.file.txt}")
     private String txtFile;
+
+    @Bean
+    public ConsoleItemWriter consoleItemWriter() {
+        return new ConsoleItemWriter();
+    }
 
     /** @return ItemWriter */
     @Bean

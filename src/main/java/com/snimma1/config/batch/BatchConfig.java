@@ -2,7 +2,7 @@ package com.snimma1.config.batch;
 
 import com.snimma1.config.readers.ReadersConfig;
 import com.snimma1.config.writers.WritersConfig;
-import com.snimma1.model.Person;
+import com.snimma1.model.Post;
 import com.snimma1.processor.PersonItemProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -62,10 +62,10 @@ public class BatchConfig {
     public Step step1() {
         return stepBuilderFactory
                 .get("step1")
-                .<Person, Person>chunk(10)
-                .reader(readers.readerCsv())
-                .processor(processor())
-                .writer(writers.csvItemWriter())
+                .<Post, Post>chunk(10)
+                .reader(readers.readerXml())
+                //                .processor(processor())
+                .writer(writers.consoleItemWriter())
                 .build();
     }
 }

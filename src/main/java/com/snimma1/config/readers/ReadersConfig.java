@@ -1,16 +1,19 @@
 package com.snimma1.config.readers;
 
+import com.snimma1.model.Person;
+import com.snimma1.model.Post;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
+import org.springframework.batch.item.xml.StaxEventItemReader;
+import org.springframework.batch.item.xml.builder.StaxEventItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.io.ClassPathResource;
-
-import com.snimma1.model.Person;
+import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
 @Configuration
 @PropertySource("classpath:application.yaml")
@@ -21,6 +24,22 @@ public class ReadersConfig {
     @Value("${import.file.txt}")
     private String txtFile;
 
+    @Value("${import.file.xml}")
+    private String xmlFile;
+
+    @Bean
+    public StaxEventItemReader readerXml() {
+        Jaxb2Marshaller unmarsh = new Jaxb2Marshaller();
+        unmarsh.setClassesToBeBound(Post.class);
+        return new StaxEventItemReaderBuilder<Post>()
+                .name("itemReader")
+                .resource(new ClassPathResource(xmlFile))
+                .addFragmentRootElements("row")
+                .unmarshaller(unmarsh)
+                .build();
+    }
+
+    /** */
     /** @return FlatFileItemReader Configured reader */
     @Bean
     public FlatFileItemReader<Person> readerTxt() {
