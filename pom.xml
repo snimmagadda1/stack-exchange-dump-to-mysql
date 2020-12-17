@@ -5,7 +5,7 @@
 
     <groupId>org.springframework</groupId>
     <version>0.0.1</version>
-    <artifactId>StackE Dump</artifactId>
+    <artifactId>stacke-dump</artifactId>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
