@@ -13,7 +13,7 @@ create table badges
     UserId       INT,
     Name         VARCHAR(50),
     CreationDate DATETIME
-);
+) CHARACTER SET = utf8;
 
 CREATE TABLE comments
 (
@@ -23,7 +23,7 @@ CREATE TABLE comments
     Text         TEXT,
     CreationDate DATETIME,
     UserId       INT NOT NULL
-);
+) CHARACTER SET = utf8;
 
 CREATE TABLE post_history
 (
@@ -34,28 +34,28 @@ CREATE TABLE post_history
     CreationDate      DATETIME,
     UserId            INT      NOT NULL,
     Text              TEXT
-);
+) CHARACTER SET = utf8;
 
 CREATE TABLE posts
 (
-    Id               INT          NOT NULL PRIMARY KEY,
+    Id               INT NOT NULL PRIMARY KEY,
     PostTypeId       SMALLINT,
     AcceptedAnswerId INT,
     ParentId         INT,
     Score            INT NULL,
     ViewCount        INT NULL,
-    Body             text NULL,
-    OwnerUserId      INT          NOT NULL,
+    Body             mediumtext NULL,
+    OwnerUserId      INT,
     LastEditorUserId INT,
     LastEditDate     DATETIME,
     LastActivityDate DATETIME,
-    Title            varchar(256) NOT NULL,
+    Title            varchar(256),
     Tags             VARCHAR(256),
-    AnswerCount      INT          NOT NULL DEFAULT 0,
-    CommentCount     INT          NOT NULL DEFAULT 0,
-    FavoriteCount    INT          NOT NULL DEFAULT 0,
+    AnswerCount      INT DEFAULT 0,
+    CommentCount     INT DEFAULT 0,
+    FavoriteCount    INT DEFAULT 0,
     CreationDate     DATETIME
-);
+) CHARACTER SET = utf8;
 
 CREATE TABLE users
 (
@@ -72,7 +72,7 @@ CREATE TABLE users
     UpVotes        INT,
     DownVotes      INT,
     EmailHash      VARCHAR(32)
-);
+) CHARACTER SET = utf8;
 
 CREATE TABLE votes
 (
@@ -80,9 +80,9 @@ CREATE TABLE votes
     PostId       INT NOT NULL,
     VoteTypeId   SMALLINT,
     CreationDate DATETIME
-);
+) CHARACTER SET = utf8;
 
-
+-- Use indices for ease of loading...
 -- TODO: Best indices to make
 create
 index badges_idx_1 on badges(UserId);

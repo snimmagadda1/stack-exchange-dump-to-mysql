@@ -1,23 +1,29 @@
 package com.snimma1.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.datatype.XMLGregorianCalendar;
 import java.math.BigInteger;
 
 @Data
+@Builder
+@Entity(name = "posts")
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlRootElement(name = "row")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Post {
 
+    @Id
     @XmlAttribute(name = "Id")
     private BigInteger id;
 
@@ -31,7 +37,8 @@ public class Post {
     private BigInteger acceptedAnswerId;
 
     @XmlAttribute(name = "CreationDate")
-    private XMLGregorianCalendar creationDate;
+    //    private XMLGregorianCalendar creationDate;
+    private String creationDate;
 
     @XmlAttribute(name = "Score")
     private Integer score;
@@ -39,6 +46,7 @@ public class Post {
     @XmlAttribute(name = "ViewCount")
     private Integer viewCount;
 
+    @Column(columnDefinition = "MEDIUMTEXT")
     @XmlAttribute(name = "Body")
     private String body;
 
@@ -55,16 +63,20 @@ public class Post {
     private String lastEditorDisplayName;
 
     @XmlAttribute(name = "LastEditDate")
-    private XMLGregorianCalendar lastEditDate;
+    //    private XMLGregorianCalendar lastEditDate;
+    private String lastEditDate;
 
     @XmlAttribute(name = "LastActivityDate")
-    private XMLGregorianCalendar lastActivityDate;
+    //    private XMLGregorianCalendar lastActivityDate;
+    private String lastActivityDate;
 
     @XmlAttribute(name = "CommunityOwnedDate")
-    private XMLGregorianCalendar communityOwnedDate;
+    //    private XMLGregorianCalendar communityOwnedDate;
+    private String communityOwnedDate;
 
     @XmlAttribute(name = "ClosedDate")
-    private XMLGregorianCalendar closedDate;
+    //    private XMLGregorianCalendar closedDate;
+    private String closedDate;
 
     @XmlAttribute(name = "Title")
     private String title;
