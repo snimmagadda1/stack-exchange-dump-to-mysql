@@ -61,7 +61,7 @@ public class BatchConfig {
         SimpleAsyncTaskExecutor executor = new SimpleAsyncTaskExecutor("batch_x");
         executor.setConcurrencyLimit(CONCURENCY_LIMIT);
         return (TaskExecutor) executor;
-       }
+    }
 
     @Bean
     PostProcessor postProcessor() {
@@ -73,7 +73,7 @@ public class BatchConfig {
         return jobBuilderFactory
                 .get("importStackDump")
                 .incrementer(new RunIdIncrementer())
-               .start(flow)
+                .start(flow)
                 .end()
                 .build();
     }

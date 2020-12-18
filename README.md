@@ -18,7 +18,9 @@ mvn clean package
 
 ## Usage
 
-TODO
+The `schema-base.sql` must be executed on an output schema. `app.datasource.xxx` properties should be updated
+accordingly. Metrics job/task metadata by defualt are output to an in-memory HSQL DB which can be overridden with
+the `spring.datasource.xxx` properties.
 
 ```sh
 mvn spring-boot:run
@@ -39,7 +41,8 @@ mvn test
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/snimmagadda1/stackexchange-dump-to-mysql/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to
+check [issues page](https://github.com/snimmagadda1/stackexchange-dump-to-mysql/issues).
 
 ## 📝 License
 

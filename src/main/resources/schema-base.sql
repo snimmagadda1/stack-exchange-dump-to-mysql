@@ -1,8 +1,5 @@
 -- noinspection SqlNoDataSourceInspectionForFile
 
-use
-stacke;
-
 -- Do i need this
 SET
 @@SESSION.SQL_MODE='';

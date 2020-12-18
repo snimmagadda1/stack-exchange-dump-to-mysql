@@ -4,6 +4,19 @@ spring:
     url: "jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1"
     username: "user"
     password: "pass"
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
 #    schema: schema-base.sql
 
 #app:
@@ -17,8 +30,13 @@ spring:
 
 import:
   file:
-    csv: "import/persons.csv"
-    txt: "import/persons.txt"
+    dir: "import/anime.stackexchange.com"
+    posts: "Posts.xml"
+    comments: "Comments.xml"
+    badges: "Badges.xml"
+    postHistory: "PostHistory.xml"
+    users: "Users.xml"
+    votes: "Votes.xml"
 
 export:
   file:
