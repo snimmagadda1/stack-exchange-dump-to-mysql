@@ -54,12 +54,12 @@ public class BatchConfig {
         this.writers = writers;
     }
 
-    public static final int CONCURENCY_LIMIT = 10;
+    public static final int CONCURRENCY_LIMIT = 10;
 
     @Bean
     public TaskExecutor taskExecutor() {
         SimpleAsyncTaskExecutor executor = new SimpleAsyncTaskExecutor("batch_x");
-        executor.setConcurrencyLimit(CONCURENCY_LIMIT);
+        executor.setConcurrencyLimit(CONCURRENCY_LIMIT);
         return (TaskExecutor) executor;
     }
 
