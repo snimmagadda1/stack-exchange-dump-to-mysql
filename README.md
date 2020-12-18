@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A quick pipeline to import Stack Exchange XML dump data to a relational db
+> A quick pipeline to import [Stack Exchange XML dump](https://archive.org/details/stackexchange) data to a relational db
 
 ### 🏠 [TODO](https://s11a.com)
 
