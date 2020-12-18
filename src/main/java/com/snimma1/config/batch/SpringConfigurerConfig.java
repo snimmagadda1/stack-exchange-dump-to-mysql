@@ -7,6 +7,7 @@ import org.springframework.cloud.task.configuration.DefaultTaskConfigurer;
 import org.springframework.cloud.task.configuration.TaskConfigurer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 
@@ -32,6 +33,6 @@ public class SpringConfigurerConfig {
      */
     @Bean
     TaskConfigurer taskConfigurer(@Qualifier("springDataSource") DataSource dataSource) {
-        return new DefaultTaskConfigurer(dataSource);
+        return new CustomTaskConfigurer(dataSource);
     }
 }

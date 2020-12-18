@@ -43,7 +43,6 @@ public class Post {
     @XmlAttribute(name = "ViewCount")
     private Integer viewCount;
 
-    @Column(columnDefinition = "MEDIUMTEXT")
     @XmlAttribute(name = "Body")
     private String body;
 
