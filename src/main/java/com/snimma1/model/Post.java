@@ -28,17 +28,14 @@ public class Post {
     private BigInteger id;
 
     @XmlAttribute(name = "PostTypeId")
-    private String postType;
-
-    @XmlAttribute(name = "ParentId")
-    private BigInteger parentId;
+    @Column(name = "PostTypeId")
+    private Integer postType;
 
     @XmlAttribute(name = "AcceptedAnswerId")
     private BigInteger acceptedAnswerId;
 
-    @XmlAttribute(name = "CreationDate")
-    //    private XMLGregorianCalendar creationDate;
-    private String creationDate;
+    @XmlAttribute(name = "ParentId")
+    private BigInteger parentId;
 
     @XmlAttribute(name = "Score")
     private Integer score;
@@ -49,6 +46,10 @@ public class Post {
     @Column(columnDefinition = "MEDIUMTEXT")
     @XmlAttribute(name = "Body")
     private String body;
+
+    @XmlAttribute(name = "CreationDate")
+    //    private XMLGregorianCalendar creationDate;
+    private String creationDate;
 
     @XmlAttribute(name = "OwnerUserId")
     private Integer ownerUserId;

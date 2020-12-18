@@ -2,8 +2,7 @@ package com.snimma1.config.batch;
 
 import com.snimma1.config.readers.ReadersConfig;
 import com.snimma1.config.writers.WritersConfig;
-import com.snimma1.model.Comment;
-import com.snimma1.model.Post;
+import com.snimma1.model.*;
 import com.snimma1.processor.PostProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -61,7 +60,7 @@ public class BatchConfig {
     }
 
     @Bean
-    public Job importStackDumpToSql(@Qualifier("step2") Step step2) {
+    public Job importStackDumpToSql(@Qualifier("step6") Step step2) {
         return jobBuilderFactory
                 .get("importStackDump")
                 .incrementer(new RunIdIncrementer())
@@ -105,6 +104,62 @@ public class BatchConfig {
                 .transactionManager(transactionManager)
                 .<Comment, Comment>chunk(100)
                 .reader(readers.commentsReader())
+                .writer(writers.jpaItemWriter(factory))
+                .faultTolerant()
+                .build();
+    }
+
+    @Bean
+    public Step step3(
+            @Qualifier("appJpaTransactionManager") JpaTransactionManager transactionManager,
+            @Qualifier("appEntityManager") LocalContainerEntityManagerFactoryBean factory) {
+        return stepBuilderFactory
+                .get("badges")
+                .transactionManager(transactionManager)
+                .<Badge, Badge>chunk(100)
+                .reader(readers.badgesReader())
+                .writer(writers.jpaItemWriter(factory))
+                .faultTolerant()
+                .build();
+    }
+
+    @Bean
+    public Step step4(
+            @Qualifier("appJpaTransactionManager") JpaTransactionManager transactionManager,
+            @Qualifier("appEntityManager") LocalContainerEntityManagerFactoryBean factory) {
+        return stepBuilderFactory
+                .get("post_history")
+                .transactionManager(transactionManager)
+                .<PostHistory, PostHistory>chunk(100)
+                .reader(readers.postHistoryReader()) // todo
+                .writer(writers.jpaItemWriter(factory))
+                .faultTolerant()
+                .build();
+    }
+
+    @Bean
+    public Step step5(
+            @Qualifier("appJpaTransactionManager") JpaTransactionManager transactionManager,
+            @Qualifier("appEntityManager") LocalContainerEntityManagerFactoryBean factory) {
+        return stepBuilderFactory
+                .get("users")
+                .transactionManager(transactionManager)
+                .<User, User>chunk(100)
+                .reader(readers.usersReader()) // todo
+                .writer(writers.jpaItemWriter(factory))
+                .faultTolerant()
+                .build();
+    }
+
+    @Bean
+    public Step step6(
+            @Qualifier("appJpaTransactionManager") JpaTransactionManager transactionManager,
+            @Qualifier("appEntityManager") LocalContainerEntityManagerFactoryBean factory) {
+        return stepBuilderFactory
+                .get("votes")
+                .transactionManager(transactionManager)
+                .<User, User>chunk(100)
+                .reader(readers.votesReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
