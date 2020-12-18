@@ -25,9 +25,9 @@ logging:
     org.springfamework.batch: DEBUG
     org.hibernate: ERROR
 
-#app:
-#  datasource:
-#    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+app:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
 #    url: "jdbc:hsqldb:mem:appdb;DB_CLOSE_DELAY=-1"
 #    username: "user"
 #    password: "pass"
