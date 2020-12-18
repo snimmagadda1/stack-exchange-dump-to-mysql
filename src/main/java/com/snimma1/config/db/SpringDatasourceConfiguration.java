@@ -28,6 +28,7 @@ public class SpringDatasourceConfiguration {
         return datasource;
     }
 
+    @Primary
     @Bean(name = "springEntityManager")
     @PersistenceContext(unitName = "springPersU")
     public LocalContainerEntityManagerFactoryBean appEntityManagerFactory(
@@ -43,6 +44,7 @@ public class SpringDatasourceConfiguration {
         return factory;
     }
 
+    @Primary
     @Bean
     public JpaTransactionManager springJpaTransactionManager(
             @Qualifier("springEntityManager") EntityManagerFactory factory) {

@@ -20,6 +20,13 @@ spring:
       ddl-auto: none
     database-platform: org.hibernate.dialect.MySQLDialect
 
+  cloud:
+    task:
+      initialize-enabled: true
+      batch:
+        fail-on-job-failure: true
+  batch:
+    initialize-schema: always
 
 logging:
   level:
