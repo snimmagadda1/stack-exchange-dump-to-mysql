@@ -22,6 +22,8 @@ The `schema-base.sql` must be executed on an output schema. `app.datasource.xxx`
 accordingly. Metrics job/task metadata by defualt are output to an in-memory HSQL DB which can be overridden with
 the `spring.datasource.xxx` properties.
 
+Streamlined ways to run are a W.I.P. For now, manual configuration of application.yaml is required.
+
 ```sh
 mvn spring-boot:run
 ```
