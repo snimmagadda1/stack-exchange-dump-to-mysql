@@ -1,5 +1,6 @@
 package com.snimma1.config.readers;
 
+import com.snimma1.model.Comment;
 import com.snimma1.model.Post;
 import org.springframework.batch.item.xml.StaxEventItemReader;
 import org.springframework.batch.item.xml.builder.StaxEventItemReaderBuilder;
@@ -20,13 +21,28 @@ public class ReadersConfig {
     @Value("${import.file.posts}")
     private String postsFile;
 
+    @Value("${import.file.comments}")
+    private String commentsFile;
+
     @Bean
     public StaxEventItemReader postsReader() {
         Jaxb2Marshaller unmarsh = new Jaxb2Marshaller();
         unmarsh.setClassesToBeBound(Post.class);
         return new StaxEventItemReaderBuilder<Post>()
-                .name("itemReader")
+                .name("postReader")
                 .resource(new ClassPathResource(dir + "/" + postsFile))
+                .addFragmentRootElements("row")
+                .unmarshaller(unmarsh)
+                .build();
+    }
+
+    @Bean
+    public StaxEventItemReader commentsReader() {
+        Jaxb2Marshaller unmarsh = new Jaxb2Marshaller();
+        unmarsh.setClassesToBeBound(Comment.class);
+        return new StaxEventItemReaderBuilder<Comment>()
+                .name("commentReader")
+                .resource(new ClassPathResource(dir + "/" + commentsFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();

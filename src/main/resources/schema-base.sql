@@ -18,11 +18,11 @@ create table badges
 CREATE TABLE comments
 (
     Id           INT NOT NULL PRIMARY KEY,
-    PostId       INT NOT NULL,
+    PostId       INT,
     Score        INT NOT NULL DEFAULT 0,
     Text         TEXT,
     CreationDate DATETIME,
-    UserId       INT NOT NULL
+    UserId       INT
 ) CHARACTER SET = utf8;
 
 CREATE TABLE post_history
