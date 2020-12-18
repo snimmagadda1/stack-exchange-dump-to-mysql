@@ -17,7 +17,13 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: none
-#    schema: schema-base.sql
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web: INFO
+    org.springfamework.batch: DEBUG
+    org.hibernate: ERROR
 
 #app:
 #  datasource:
@@ -42,3 +48,4 @@ export:
   file:
     csv: "target/export/persons.csv"
     txt: "target/export/persons.txt"
+

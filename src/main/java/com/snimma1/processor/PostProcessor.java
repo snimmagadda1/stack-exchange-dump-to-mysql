@@ -15,6 +15,7 @@ public class PostProcessor implements ItemProcessor<Post, Post> {
 
         Charset charset = Charset.forName("UTF-8");
 
+        log.info("Processed post with title " + in.getTitle());
         return Post.builder()
                 .id(in.getId())
                 .postType(in.getPostType())
