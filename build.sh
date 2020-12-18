@@ -1,8 +1,8 @@
 #!/bin/sh
-
+set -ev
 mvn clean package
 
 echo "Spring batch build completed"
 echo "Build & push"
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-docker build . -t snimmagadda/stacke-batch-mysql && docker push snimmagadda/stacke-batch-mysql
+docker build . -t snimmagadda/stacke-batch-mysql:"$TRAVIS_BUILD_NUMBER" && docker push snimmagadda/stacke-batch-mysql:"$TRAVIS_BUILD_NUMBER"
