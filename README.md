@@ -18,14 +18,22 @@ mvn clean package
 
 ## Usage
 
-The `schema-base.sql` must be executed on an output schema. `app.datasource.xxx` properties should be updated
+Before the pipeline is executed, the `schema-base.sql` must be executed on the desired output schema. This will
+initialize the tables and create necessary indices for the data dump. `app.datasource.xxx` properties should be updated
 accordingly. Metrics job/task metadata by defualt are output to an in-memory HSQL DB which can be overridden with
 the `spring.datasource.xxx` properties.
 
-Streamlined ways to run are a W.I.P. For now, manual configuration of application.yaml is required.
+Streamlined ways to run are a W.I.P. For now, manual configuration of application.yaml is required. Once properties are
+configured, you can run locally with the following:
 
 ```sh
 mvn spring-boot:run
+```
+
+or with docker (taking care to pass the required app.datasource.xxx and spring.datasource.xxx properties as env vars):
+
+```sh
+docker run -e APP_DATASOURCE_URL=XXXXX -e ... snimmagadda/stacke-batch-mysql:latest 
 ```
 
 ## Run tests
