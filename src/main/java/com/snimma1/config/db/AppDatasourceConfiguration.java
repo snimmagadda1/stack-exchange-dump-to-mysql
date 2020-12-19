@@ -1,6 +1,5 @@
 package com.snimma1.config.db;
 
-import org.hibernate.dialect.MySQL5Dialect;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -39,7 +38,8 @@ public class AppDatasourceConfiguration {
         HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
         adapter.setGenerateDdl(true);
         Properties properties = new Properties();
-        properties.setProperty("hibernate.dialect", appDatasourceConfigurationProperties.getDialect());
+        properties.setProperty(
+                "hibernate.dialect", appDatasourceConfigurationProperties.getDialect());
         LocalContainerEntityManagerFactoryBean factory =
                 new LocalContainerEntityManagerFactoryBean();
         factory.setDataSource(dataSource);

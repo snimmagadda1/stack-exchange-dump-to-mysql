@@ -1,14 +1,20 @@
 package com.snimma1.config.readers;
 
 import com.snimma1.model.*;
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.file.MultiResourceItemReader;
 import org.springframework.batch.item.xml.StaxEventItemReader;
 import org.springframework.batch.item.xml.builder.StaxEventItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
+
+import java.io.IOException;
 
 @Configuration
 @PropertySource("classpath:application.yaml")
@@ -36,12 +42,102 @@ public class ReadersConfig {
     private String votesFile;
 
     @Bean
+    public ItemReader multiPostsReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + postsFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(postsReader());
+        return reader;
+    }
+
+    @Bean
+    public ItemReader multiBadgesReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + badgesFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(badgesReader());
+        return reader;
+    }
+
+    @Bean
+    public ItemReader multiPostHistoryReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + postHistoryFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(postHistoryReader());
+        return reader;
+    }
+
+    @Bean
+    public ItemReader multiCommentsReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + commentsFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(commentsReader());
+        return reader;
+    }
+
+    @Bean
+    public ItemReader multiUsersReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + usersFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(usersReader());
+        return reader;
+    }
+
+    @Bean
+    public ItemReader multiVotesReader() {
+        Resource[] resources = null;
+        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
+        try {
+            resources = patternResolver.getResources("classpath:/import/*/" + votesFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
+        reader.setResources(resources);
+        reader.setDelegate(votesReader());
+        return reader;
+    }
+
+    //  ******  Singleton readers ******
+    @Bean
     public StaxEventItemReader postsReader() {
         Jaxb2Marshaller unmarsh = new Jaxb2Marshaller();
         unmarsh.setClassesToBeBound(Post.class);
         return new StaxEventItemReaderBuilder<Post>()
                 .name("postReader")
-                .resource(new ClassPathResource(dir + "/" + postsFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();
@@ -53,7 +149,6 @@ public class ReadersConfig {
         unmarsh.setClassesToBeBound(Comment.class);
         return new StaxEventItemReaderBuilder<Comment>()
                 .name("commentReader")
-                .resource(new ClassPathResource(dir + "/" + commentsFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();
@@ -65,7 +160,6 @@ public class ReadersConfig {
         unmarsh.setClassesToBeBound(Badge.class);
         return new StaxEventItemReaderBuilder<Badge>()
                 .name("badgeReader")
-                .resource(new ClassPathResource(dir + "/" + badgesFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();
@@ -77,7 +171,6 @@ public class ReadersConfig {
         unmarsh.setClassesToBeBound(PostHistory.class);
         return new StaxEventItemReaderBuilder<PostHistory>()
                 .name("postHistoryReader")
-                .resource(new ClassPathResource(dir + "/" + postHistoryFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();
@@ -89,7 +182,6 @@ public class ReadersConfig {
         unmarsh.setClassesToBeBound(User.class);
         return new StaxEventItemReaderBuilder<User>()
                 .name("usersReader")
-                .resource(new ClassPathResource(dir + "/" + usersFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();
@@ -101,7 +193,6 @@ public class ReadersConfig {
         unmarsh.setClassesToBeBound(Vote.class);
         return new StaxEventItemReaderBuilder<Vote>()
                 .name("votesReader")
-                .resource(new ClassPathResource(dir + "/" + votesFile))
                 .addFragmentRootElements("row")
                 .unmarshaller(unmarsh)
                 .build();

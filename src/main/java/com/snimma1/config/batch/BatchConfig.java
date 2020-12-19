@@ -71,11 +71,11 @@ public class BatchConfig {
     }
 
     @Bean
-    public Job importStackDumpToSql(@Autowired Flow flow) {
+    public Job importStackDumpToSql(Flow jobFlow) {
         return jobBuilderFactory
-                .get("importStackDump")
+                .get("stackDump2SQL")
                 .incrementer(new RunIdIncrementer())
-                .start(flow)
+                .start(jobFlow)
                 .end()
                 .build();
     }
@@ -110,7 +110,7 @@ public class BatchConfig {
                 .get("posts")
                 .transactionManager(transactionManager)
                 .<Post, Post>chunk(100)
-                .reader(readers.postsReader())
+                .reader(readers.multiPostsReader())
                 .processor(postProcessor)
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
@@ -125,7 +125,7 @@ public class BatchConfig {
                 .get("comments")
                 .transactionManager(transactionManager)
                 .<Comment, Comment>chunk(100)
-                .reader(readers.commentsReader())
+                .reader(readers.multiCommentsReader())
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
@@ -139,7 +139,7 @@ public class BatchConfig {
                 .get("badges")
                 .transactionManager(transactionManager)
                 .<Badge, Badge>chunk(100)
-                .reader(readers.badgesReader())
+                .reader(readers.multiBadgesReader())
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
@@ -153,7 +153,7 @@ public class BatchConfig {
                 .get("post_history")
                 .transactionManager(transactionManager)
                 .<PostHistory, PostHistory>chunk(100)
-                .reader(readers.postHistoryReader()) // todo
+                .reader(readers.multiPostHistoryReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
@@ -167,7 +167,7 @@ public class BatchConfig {
                 .get("users")
                 .transactionManager(transactionManager)
                 .<User, User>chunk(100)
-                .reader(readers.usersReader()) // todo
+                .reader(readers.multiUsersReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
@@ -181,7 +181,7 @@ public class BatchConfig {
                 .get("votes")
                 .transactionManager(transactionManager)
                 .<User, User>chunk(100)
-                .reader(readers.votesReader()) // todo
+                .reader(readers.multiVotesReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
                 .build();
