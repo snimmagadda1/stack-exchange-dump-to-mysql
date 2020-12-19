@@ -1,4 +1,4 @@
-<h1 align="center">stackexchange-dump-to-mysql 👋</h1>
+<h1 align="center">stack-exchange-dump-to-mysql 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="LICENSE.md" target="_blank">
