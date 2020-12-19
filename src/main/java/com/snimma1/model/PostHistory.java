@@ -55,5 +55,5 @@ public class PostHistory {
     private String text;
 
     @XmlAttribute(name = "ContentLicense")
-    private String contentLicence;
+    private String contentLicense;
 }

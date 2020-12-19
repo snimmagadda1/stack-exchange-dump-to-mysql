@@ -6,11 +6,13 @@ SET
 
 create table badges
 (
-    Id     INT NOT NULL PRIMARY KEY,
-    UserId INT,
-    Name   VARCHAR(50),
-    Date   DATETIME,
-    Class  INT
+    Id         INT NOT NULL PRIMARY KEY,
+    UserId     INT,
+    Name       VARCHAR(50),
+    Date       DATETIME,
+    Class      INT,
+    BadgeClass INT,
+    TagBased   TINYINT
 ) CHARACTER SET = utf8;
 
 CREATE TABLE comments
@@ -21,7 +23,8 @@ CREATE TABLE comments
     Text            TEXT,
     CreationDate    DATETIME,
     UserDisplayName VARCHAR(50),
-    UserId          INT
+    UserId          INT,
+    ContentLicense  VARCHAR(20)
 ) CHARACTER SET = utf8;
 
 CREATE TABLE post_history
@@ -62,24 +65,27 @@ CREATE TABLE posts
     AnswerCount           INT DEFAULT 0,
     CommentCount          INT DEFAULT 0,
     FavoriteCount         INT DEFAULT 0,
-    CreationDate          DATETIME
+    CreationDate          DATETIME,
+    ContentLicense        VARCHAR(20)
 ) CHARACTER SET = utf8;
 
 CREATE TABLE users
 (
-    Id             INT NOT NULL PRIMARY KEY,
-    Reputation     INT NOT NULL,
-    CreationDate   DATETIME,
-    DisplayName    VARCHAR(50) NULL,
-    LastAccessDate DATETIME,
-    Views          INT DEFAULT 0,
-    WebsiteUrl     VARCHAR(256) NULL,
-    Location       VARCHAR(256) NULL,
-    AboutMe        TEXT NULL,
-    Age            INT,
-    UpVotes        INT,
-    DownVotes      INT,
-    EmailHash      VARCHAR(32)
+    Id               INT NOT NULL PRIMARY KEY,
+    Reputation       INT NOT NULL,
+    CreationDate     DATETIME,
+    DisplayName      VARCHAR(50) NULL,
+    LastAccessedDate DATETIME,
+    Views            INT DEFAULT 0,
+    WebsiteUrl       VARCHAR(256) NULL,
+    Location         VARCHAR(256) NULL,
+    AboutMe          TEXT NULL,
+    Age              INT,
+    UpVotes          INT,
+    DownVotes        INT,
+    ProfileImageUrl  VARCHAR(256) NULL,
+    EmailHash        VARCHAR(32),
+    AccountId        INT
 ) CHARACTER SET = utf8;
 
 CREATE TABLE votes
