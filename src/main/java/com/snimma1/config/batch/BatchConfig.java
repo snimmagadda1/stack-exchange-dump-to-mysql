@@ -30,6 +30,8 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 @EnableTask
 public class BatchConfig {
 
+    public static final int BATCH_CHUNK_SIZE = 500;
+
     public TaskConfigurer taskConfigurer;
 
     public final JobBuilderFactory jobBuilderFactory;
@@ -109,7 +111,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("posts")
                 .transactionManager(transactionManager)
-                .<Post, Post>chunk(100)
+                .<Post, Post>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiPostsReader())
                 .processor(postProcessor)
                 .writer(writers.jpaItemWriter(factory))
@@ -124,7 +126,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("comments")
                 .transactionManager(transactionManager)
-                .<Comment, Comment>chunk(100)
+                .<Comment, Comment>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiCommentsReader())
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
@@ -138,7 +140,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("badges")
                 .transactionManager(transactionManager)
-                .<Badge, Badge>chunk(100)
+                .<Badge, Badge>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiBadgesReader())
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
@@ -152,7 +154,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("post_history")
                 .transactionManager(transactionManager)
-                .<PostHistory, PostHistory>chunk(100)
+                .<PostHistory, PostHistory>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiPostHistoryReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
@@ -166,7 +168,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("users")
                 .transactionManager(transactionManager)
-                .<User, User>chunk(100)
+                .<User, User>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiUsersReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
@@ -180,7 +182,7 @@ public class BatchConfig {
         return stepBuilderFactory
                 .get("votes")
                 .transactionManager(transactionManager)
-                .<User, User>chunk(100)
+                .<User, User>chunk(BATCH_CHUNK_SIZE)
                 .reader(readers.multiVotesReader()) // todo
                 .writer(writers.jpaItemWriter(factory))
                 .faultTolerant()
