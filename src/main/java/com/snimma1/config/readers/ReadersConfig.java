@@ -9,12 +9,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
-import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
-
-import java.io.IOException;
 
 @Configuration
 @PropertySource("classpath:application.yaml")
@@ -44,12 +41,16 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiPostsReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + postsFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + postsFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+        Resource fileSystem = new FileSystemResource(dir + "/" + postsFile);
+        System.out.println("READING FILES AT THE DIR " + dir + postsFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(postsReader());
@@ -59,12 +60,15 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiBadgesReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + badgesFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + badgesFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+        Resource fileSystem = new FileSystemResource(dir + "/" + badgesFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(badgesReader());
@@ -74,12 +78,16 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiPostHistoryReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + postHistoryFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + postHistoryFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+
+        Resource fileSystem = new FileSystemResource(dir + "/" + postHistoryFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(postHistoryReader());
@@ -89,12 +97,16 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiCommentsReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + commentsFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + commentsFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+
+        Resource fileSystem = new FileSystemResource(dir + "/" + commentsFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(commentsReader());
@@ -104,12 +116,16 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiUsersReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + usersFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + usersFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+
+        Resource fileSystem = new FileSystemResource(dir + "/" + usersFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(usersReader());
@@ -119,12 +135,16 @@ public class ReadersConfig {
     @Bean
     public ItemReader multiVotesReader() {
         Resource[] resources = null;
-        ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        try {
-            resources = patternResolver.getResources("classpath:/import/*/" + votesFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //        ResourcePatternResolver patternResolver = new
+        // PathMatchingResourcePatternResolver();
+        //        try {
+        //            resources = patternResolver.getResources(dir + votesFile);
+        //        } catch (IOException e) {
+        //            e.printStackTrace();
+        //        }
+
+        Resource fileSystem = new FileSystemResource(dir + "/" + votesFile);
+        resources = new Resource[] {fileSystem};
         MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
         reader.setResources(resources);
         reader.setDelegate(votesReader());

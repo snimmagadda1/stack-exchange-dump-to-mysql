@@ -28,12 +28,12 @@ spring:
   batch:
     initialize-schema: always
 
-logging:
-  level:
-    root: DEBUG
-    org.springframework.web: INFO
-    org.springfamework.batch: DEBUG
-    org.hibernate: ERROR
+#logging:
+#  level:
+#    root: DEBUG
+#    org.springframework.web: INFO
+#    org.springfamework.batch: DEBUG
+#    org.hibernate: ERROR
 
 app:
   datasource:
@@ -47,7 +47,7 @@ app:
 
 import:
   file:
-    dir: "import/anime.stackexchange.com"
+    dir: "import/health.stackexchange.com"
     posts: "Posts.xml"
     comments: "Comments.xml"
     badges: "Badges.xml"

@@ -1,0 +1,1442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tags>
+    <row Id="2" TagName="dentistry" Count="176" ExcerptPostId="3741" WikiPostId="3740"/>
+    <row Id="3" TagName="nutrition" Count="495" ExcerptPostId="133" WikiPostId="132"/>
+    <row Id="4" TagName="life-expectancy" Count="15"/>
+    <row Id="5" TagName="disease" Count="55" ExcerptPostId="13853" WikiPostId="13852"/>
+    <row Id="6" TagName="statistics" Count="90"/>
+    <row Id="7" TagName="immune-system" Count="169" ExcerptPostId="579" WikiPostId="578"/>
+    <row Id="9" TagName="drug-metabolism" Count="30" ExcerptPostId="184" WikiPostId="183"/>
+    <row Id="10" TagName="wound" Count="20"/>
+    <row Id="11" TagName="removal" Count="18"/>
+    <row Id="15" TagName="ophthalmology" Count="33" ExcerptPostId="24120" WikiPostId="24119"/>
+    <row Id="16" TagName="eye" Count="135" ExcerptPostId="130" WikiPostId="129"/>
+    <row Id="18" TagName="kidney-stones" Count="11"/>
+    <row Id="19" TagName="renal" Count="11" ExcerptPostId="211" WikiPostId="210"/>
+    <row Id="20" TagName="urology" Count="23" ExcerptPostId="4752" WikiPostId="4751"/>
+    <row Id="22" TagName="clinical-study" Count="60" ExcerptPostId="20" WikiPostId="19"/>
+    <row Id="24" TagName="mri" Count="39" ExcerptPostId="13855" WikiPostId="13854"/>
+    <row Id="25" TagName="voice" Count="3"/>
+    <row Id="28" TagName="computers" Count="47" ExcerptPostId="3826" WikiPostId="3825"/>
+    <row Id="29" TagName="ankle" Count="10"/>
+    <row Id="30" TagName="ergonomics" Count="23"/>
+    <row Id="31" TagName="cellular-phone" Count="10"/>
+    <row Id="32" TagName="tendinopathy" Count="96" ExcerptPostId="164" WikiPostId="163"/>
+    <row Id="34" TagName="tendons" Count="52" ExcerptPostId="12624" WikiPostId="12623"/>
+    <row Id="35" TagName="dexamethasone" Count="2" ExcerptPostId="87" WikiPostId="86"/>
+    <row Id="36" TagName="iontophoresis" Count="2" ExcerptPostId="90" WikiPostId="89"/>
+    <row Id="38" TagName="tendinitis" Count="16" ExcerptPostId="182" WikiPostId="181"/>
+    <row Id="39" TagName="otolaryngology" Count="16" ExcerptPostId="3831" WikiPostId="3830"/>
+    <row Id="40" TagName="infection" Count="160" ExcerptPostId="188" WikiPostId="187"/>
+    <row Id="41" TagName="treatment" Count="113" ExcerptPostId="4691" WikiPostId="4690"/>
+    <row Id="42" TagName="diabetes" Count="92" ExcerptPostId="48" WikiPostId="47"/>
+    <row Id="44" TagName="micronutrients" Count="101" ExcerptPostId="796" WikiPostId="795"/>
+    <row Id="45" TagName="medications" Count="376" ExcerptPostId="1735" WikiPostId="1734"/>
+    <row Id="46" TagName="vaccination" Count="143" ExcerptPostId="3925" WikiPostId="3924"/>
+    <row Id="47" TagName="infant" Count="21" ExcerptPostId="4748" WikiPostId="4747"/>
+    <row Id="49" TagName="wound-care" Count="27"/>
+    <row Id="50" TagName="hygiene" Count="44" ExcerptPostId="4728" WikiPostId="4727"/>
+    <row Id="51" TagName="caffeine" Count="50" ExcerptPostId="4730" WikiPostId="4729"/>
+    <row Id="52" TagName="bacteria" Count="79" ExcerptPostId="12628" WikiPostId="12627"/>
+    <row Id="53" TagName="essential-oil" Count="5"/>
+    <row Id="56" TagName="emergency" Count="35" ExcerptPostId="4244" WikiPostId="4243"/>
+    <row Id="57" TagName="first-aid" Count="45" ExcerptPostId="119" WikiPostId="118"/>
+    <row Id="58" TagName="spine" Count="30"/>
+    <row Id="59" TagName="dermatology" Count="247" ExcerptPostId="700" WikiPostId="699"/>
+    <row Id="60" TagName="sleep-apnea" Count="13"/>
+    <row Id="61" TagName="cough" Count="18"/>
+    <row Id="62" TagName="diet" Count="263" ExcerptPostId="299" WikiPostId="298"/>
+    <row Id="63" TagName="vegetarianism" Count="19" ExcerptPostId="169" WikiPostId="168"/>
+    <row Id="64" TagName="blood-tests" Count="108" ExcerptPostId="12616" WikiPostId="12615"/>
+    <row Id="65" TagName="liver" Count="37"/>
+    <row Id="69" TagName="laser" Count="5"/>
+    <row Id="72" TagName="urinary-system" Count="8"/>
+    <row Id="75" TagName="muscle" Count="65" ExcerptPostId="12620" WikiPostId="12619"/>
+    <row Id="76" TagName="sports" Count="30" ExcerptPostId="12630" WikiPostId="12629"/>
+    <row Id="77" TagName="migraine" Count="19"/>
+    <row Id="78" TagName="headache" Count="32" ExcerptPostId="13600" WikiPostId="13599"/>
+    <row Id="80" TagName="dosage" Count="26"/>
+    <row Id="81" TagName="medical-device" Count="41" ExcerptPostId="127" WikiPostId="126"/>
+    <row Id="83" TagName="asthma" Count="24"/>
+    <row Id="86" TagName="alopecia" Count="5" ExcerptPostId="111" WikiPostId="110"/>
+    <row Id="87" TagName="hairloss" Count="40"/>
+    <row Id="89" TagName="sugar" Count="52" ExcerptPostId="301" WikiPostId="300"/>
+    <row Id="90" TagName="steroids" Count="21" ExcerptPostId="720" WikiPostId="719"/>
+    <row Id="94" TagName="sleep" Count="187" ExcerptPostId="4049" WikiPostId="4048"/>
+    <row Id="95" TagName="posture" Count="24" ExcerptPostId="4734" WikiPostId="4733"/>
+    <row Id="98" TagName="optometry" Count="35" ExcerptPostId="3812" WikiPostId="3811"/>
+    <row Id="99" TagName="surgery" Count="103" ExcerptPostId="4689" WikiPostId="4688"/>
+    <row Id="107" TagName="calcium" Count="14" ExcerptPostId="1730" WikiPostId="1729"/>
+    <row Id="109" TagName="dairy" Count="12"/>
+    <row Id="117" TagName="exercise" Count="121" ExcerptPostId="3921" WikiPostId="3920"/>
+    <row Id="119" TagName="injections" Count="37"/>
+    <row Id="121" TagName="cryotherapy" Count="12"/>
+    <row Id="123" TagName="side-effects" Count="146" ExcerptPostId="195" WikiPostId="194"/>
+    <row Id="124" TagName="pain" Count="120" ExcerptPostId="303" WikiPostId="302"/>
+    <row Id="125" TagName="hand" Count="25"/>
+    <row Id="126" TagName="wrist" Count="12" ExcerptPostId="209" WikiPostId="208"/>
+    <row Id="127" TagName="pill" Count="13"/>
+    <row Id="128" TagName="vomit" Count="9"/>
+    <row Id="129" TagName="carpal-tunnel-syndrome" Count="3" ExcerptPostId="5391" WikiPostId="5390"/>
+    <row Id="131" TagName="senses" Count="5"/>
+    <row Id="132" TagName="swimming" Count="11"/>
+    <row Id="133" TagName="back" Count="27"/>
+    <row Id="135" TagName="hypertension" Count="19"/>
+    <row Id="136" TagName="wisdom-teeth" Count="5"/>
+    <row Id="137" TagName="hips" Count="8"/>
+    <row Id="138" TagName="cancer" Count="177" ExcerptPostId="3913" WikiPostId="3912"/>
+    <row Id="141" TagName="weight" Count="62" ExcerptPostId="3915" WikiPostId="3914"/>
+    <row Id="143" TagName="quantified-self" Count="8"/>
+    <row Id="144" TagName="body-fat" Count="55" ExcerptPostId="8810" WikiPostId="8809"/>
+    <row Id="145" TagName="eczema" Count="10"/>
+    <row Id="146" TagName="rash" Count="11"/>
+    <row Id="147" TagName="knee" Count="21"/>
+    <row Id="151" TagName="burns" Count="10"/>
+    <row Id="152" TagName="home-remedies" Count="24"/>
+    <row Id="154" TagName="feet" Count="18" ExcerptPostId="4754" WikiPostId="4753"/>
+    <row Id="155" TagName="fibre" Count="13"/>
+    <row Id="158" TagName="hearing" Count="45" ExcerptPostId="3917" WikiPostId="3916"/>
+    <row Id="159" TagName="labeling" Count="22"/>
+    <row Id="164" TagName="aging" Count="19"/>
+    <row Id="165" TagName="sanitation" Count="16"/>
+    <row Id="167" TagName="cpr" Count="19"/>
+    <row Id="168" TagName="research" Count="102" ExcerptPostId="13598" WikiPostId="13597"/>
+    <row Id="169" TagName="treatment-options" Count="43"/>
+    <row Id="171" TagName="iron" Count="14"/>
+    <row Id="173" TagName="folk-medicine" Count="4"/>
+    <row Id="174" TagName="traditional-medicine" Count="7"/>
+    <row Id="175" TagName="nose" Count="31" ExcerptPostId="12632" WikiPostId="12631"/>
+    <row Id="176" TagName="pulmonology" Count="14"/>
+    <row Id="177" TagName="scientific-method" Count="11"/>
+    <row Id="180" TagName="data" Count="19" ExcerptPostId="1831" WikiPostId="1830"/>
+    <row Id="181" TagName="instruments" Count="7"/>
+    <row Id="182" TagName="air-quality" Count="29"/>
+    <row Id="183" TagName="moisturize" Count="7"/>
+    <row Id="184" TagName="oil-of-skin" Count="12"/>
+    <row Id="185" TagName="alcohol" Count="75" ExcerptPostId="4708" WikiPostId="4707"/>
+    <row Id="186" TagName="pediatrics" Count="40" ExcerptPostId="3575" WikiPostId="3574"/>
+    <row Id="188" TagName="prescription" Count="40"/>
+    <row Id="189" TagName="antibiotics" Count="60" ExcerptPostId="13602" WikiPostId="13601"/>
+    <row Id="190" TagName="common-cold" Count="72" ExcerptPostId="581" WikiPostId="580"/>
+    <row Id="192" TagName="smoking" Count="66"/>
+    <row Id="194" TagName="history" Count="23"/>
+    <row Id="195" TagName="blood-pressure" Count="88" ExcerptPostId="4493" WikiPostId="4492"/>
+    <row Id="199" TagName="autism" Count="13"/>
+    <row Id="200" TagName="placebo" Count="14"/>
+    <row Id="201" TagName="stress" Count="36"/>
+    <row Id="210" TagName="heredity" Count="7"/>
+    <row Id="211" TagName="cardiovascular-disease" Count="40"/>
+    <row Id="212" TagName="musculoskeletal-system" Count="20"/>
+    <row Id="213" TagName="cardiology" Count="90" ExcerptPostId="3923" WikiPostId="3922"/>
+    <row Id="214" TagName="disinfection" Count="27"/>
+    <row Id="216" TagName="artificial" Count="4"/>
+    <row Id="218" TagName="resistance" Count="13"/>
+    <row Id="219" TagName="genetic-engineering" Count="6"/>
+    <row Id="220" TagName="sti" Count="19" ExcerptPostId="572" WikiPostId="571"/>
+    <row Id="221" TagName="contraception" Count="23" ExcerptPostId="1024" WikiPostId="1023"/>
+    <row Id="222" TagName="sex" Count="79" ExcerptPostId="4346" WikiPostId="4345"/>
+    <row Id="229" TagName="tea" Count="21"/>
+    <row Id="230" TagName="breathing" Count="55" ExcerptPostId="12626" WikiPostId="12625"/>
+    <row Id="231" TagName="oxygenation" Count="16"/>
+    <row Id="232" TagName="overdose" Count="14"/>
+    <row Id="233" TagName="iron-supplements" Count="10"/>
+    <row Id="238" TagName="head-trauma" Count="9"/>
+    <row Id="240" TagName="water" Count="94" ExcerptPostId="4724" WikiPostId="4723"/>
+    <row Id="241" TagName="biological-parameter" Count="14"/>
+    <row Id="244" TagName="influenza" Count="64"/>
+    <row Id="245" TagName="blood" Count="138" ExcerptPostId="4704" WikiPostId="4703"/>
+    <row Id="246" TagName="donor" Count="5"/>
+    <row Id="247" TagName="lenses" Count="8" ExcerptPostId="1733" WikiPostId="1732"/>
+    <row Id="248" TagName="hematology" Count="29" ExcerptPostId="740" WikiPostId="739"/>
+    <row Id="249" TagName="medical-records" Count="23"/>
+    <row Id="251" TagName="toxicity" Count="45" ExcerptPostId="4710" WikiPostId="4709"/>
+    <row Id="253" TagName="radiology" Count="18" ExcerptPostId="24567" WikiPostId="24566"/>
+    <row Id="254" TagName="stomach" Count="57" ExcerptPostId="12618" WikiPostId="12617"/>
+    <row Id="255" TagName="oil" Count="22"/>
+    <row Id="256" TagName="digestion" Count="112" ExcerptPostId="4684" WikiPostId="4683"/>
+    <row Id="257" TagName="neurology" Count="109" ExcerptPostId="4682" WikiPostId="4681"/>
+    <row Id="259" TagName="venom" Count="7"/>
+    <row Id="267" TagName="orthopedics" Count="37" ExcerptPostId="4750" WikiPostId="4749"/>
+    <row Id="269" TagName="addiction" Count="26"/>
+    <row Id="272" TagName="marijuana" Count="15"/>
+    <row Id="273" TagName="type-1-diabetes" Count="24"/>
+    <row Id="275" TagName="repetitive-strain-injury" Count="13"/>
+    <row Id="277" TagName="plastic" Count="10"/>
+    <row Id="278" TagName="position" Count="22"/>
+    <row Id="281" TagName="chemical" Count="19"/>
+    <row Id="282" TagName="fish" Count="22" ExcerptPostId="11166" WikiPostId="11165"/>
+    <row Id="284" TagName="typhoid" Count="5"/>
+    <row Id="292" TagName="post-surgical" Count="9"/>
+    <row Id="293" TagName="brain" Count="116" ExcerptPostId="3834" WikiPostId="3833"/>
+    <row Id="294" TagName="mold" Count="8"/>
+    <row Id="295" TagName="acne" Count="42" ExcerptPostId="4756" WikiPostId="4755"/>
+    <row Id="300" TagName="symptoms" Count="42" ExcerptPostId="4732" WikiPostId="4731"/>
+    <row Id="301" TagName="refined-foods" Count="4" ExcerptPostId="627" WikiPostId="626"/>
+    <row Id="302" TagName="cooking" Count="13" ExcerptPostId="4758" WikiPostId="4757"/>
+    <row Id="303" TagName="minerals" Count="18"/>
+    <row Id="306" TagName="natural-remedy" Count="33" ExcerptPostId="5387" WikiPostId="5386"/>
+    <row Id="309" TagName="injury" Count="39"/>
+    <row Id="310" TagName="fruits" Count="29"/>
+    <row Id="317" TagName="nerves" Count="28"/>
+    <row Id="318" TagName="endocrinology" Count="75" ExcerptPostId="3919" WikiPostId="3918"/>
+    <row Id="319" TagName="recreational-drugs" Count="28" ExcerptPostId="3767" WikiPostId="3766"/>
+    <row Id="321" TagName="gallbladder" Count="13"/>
+    <row Id="322" TagName="gastroenterology" Count="83" ExcerptPostId="4687" WikiPostId="4686"/>
+    <row Id="327" TagName="deficiency" Count="13"/>
+    <row Id="329" TagName="organic" Count="3"/>
+    <row Id="333" TagName="numbness" Count="8" ExcerptPostId="686" WikiPostId="685"/>
+    <row Id="334" TagName="tingling" Count="2" ExcerptPostId="688" WikiPostId="687"/>
+    <row Id="335" TagName="sleep-cycles" Count="40" ExcerptPostId="4746" WikiPostId="4745"/>
+    <row Id="336" TagName="hair" Count="45" ExcerptPostId="704" WikiPostId="703"/>
+    <row Id="337" TagName="food-poisoning" Count="29" ExcerptPostId="698" WikiPostId="697"/>
+    <row Id="339" TagName="toxins" Count="14"/>
+    <row Id="341" TagName="gums" Count="17" ExcerptPostId="7662" WikiPostId="7661"/>
+    <row Id="347" TagName="seizure" Count="15" ExcerptPostId="4744" WikiPostId="4743"/>
+    <row Id="348" TagName="prevention" Count="85" ExcerptPostId="4706" WikiPostId="4705"/>
+    <row Id="351" TagName="massage" Count="7"/>
+    <row Id="353" TagName="calories" Count="38" ExcerptPostId="799" WikiPostId="798"/>
+    <row Id="354" TagName="milk" Count="25"/>
+    <row Id="356" TagName="allergy" Count="77" ExcerptPostId="4726" WikiPostId="4725"/>
+    <row Id="357" TagName="lactose-intolerant" Count="7"/>
+    <row Id="359" TagName="pollen" Count="8"/>
+    <row Id="361" TagName="office" Count="4"/>
+    <row Id="362" TagName="sexuality" Count="15"/>
+    <row Id="363" TagName="salt" Count="27" ExcerptPostId="4742" WikiPostId="4741"/>
+    <row Id="372" TagName="broken-bones" Count="15"/>
+    <row Id="374" TagName="disorders" Count="14"/>
+    <row Id="376" TagName="food-safety" Count="94"/>
+    <row Id="377" TagName="diagnostics" Count="51"/>
+    <row Id="378" TagName="terminology" Count="128" ExcerptPostId="12622" WikiPostId="12621"/>
+    <row Id="381" TagName="testosterone" Count="19"/>
+    <row Id="383" TagName="vegetable" Count="14" ExcerptPostId="11158" WikiPostId="11157"/>
+    <row Id="384" TagName="deodorant" Count="4"/>
+    <row Id="385" TagName="inhalation" Count="17"/>
+    <row Id="387" TagName="glucose" Count="24"/>
+    <row Id="389" TagName="depression" Count="44" ExcerptPostId="3134" WikiPostId="3133"/>
+    <row Id="390" TagName="cognitive-science" Count="22"/>
+    <row Id="393" TagName="oral-health" Count="43"/>
+    <row Id="395" TagName="poison" Count="13" ExcerptPostId="7137" WikiPostId="7136"/>
+    <row Id="396" TagName="sleep-deprivation" Count="32"/>
+    <row Id="398" TagName="hepatitis" Count="10"/>
+    <row Id="399" TagName="recovery" Count="20"/>
+    <row Id="400" TagName="menstrual-cycle" Count="10"/>
+    <row Id="401" TagName="psychosomatic-illness" Count="7" ExcerptPostId="1662" WikiPostId="1661"/>
+    <row Id="404" TagName="nervous-system" Count="16"/>
+    <row Id="405" TagName="metabolism" Count="40"/>
+    <row Id="406" TagName="cholesterol" Count="25"/>
+    <row Id="407" TagName="tumors" Count="18"/>
+    <row Id="411" TagName="anxiety-disorders" Count="26"/>
+    <row Id="413" TagName="proteins" Count="31"/>
+    <row Id="414" TagName="amino-acids" Count="5"/>
+    <row Id="417" TagName="virus" Count="190" ExcerptPostId="15000" WikiPostId="14999"/>
+    <row Id="418" TagName="probiotics" Count="16" ExcerptPostId="1894" WikiPostId="1893"/>
+    <row Id="421" TagName="weight-loss" Count="52" ExcerptPostId="12946" WikiPostId="12945"/>
+    <row Id="425" TagName="food-addiction" Count="4"/>
+    <row Id="429" TagName="herpes" Count="19"/>
+    <row Id="430" TagName="non-vegetarianism" Count="2" ExcerptPostId="1169" WikiPostId="1168"/>
+    <row Id="434" TagName="electricity" Count="10"/>
+    <row Id="435" TagName="soap" Count="9"/>
+    <row Id="436" TagName="sun-burn" Count="8"/>
+    <row Id="438" TagName="home-medical-equipment" Count="16"/>
+    <row Id="439" TagName="bones" Count="33" ExcerptPostId="1728" WikiPostId="1727"/>
+    <row Id="440" TagName="penis" Count="25"/>
+    <row Id="441" TagName="death" Count="42"/>
+    <row Id="445" TagName="mental-health" Count="117" ExcerptPostId="1670" WikiPostId="1669"/>
+    <row Id="448" TagName="productivity" Count="5"/>
+    <row Id="449" TagName="behavior" Count="9"/>
+    <row Id="450" TagName="lifestyle" Count="40" ExcerptPostId="3824" WikiPostId="3823"/>
+    <row Id="452" TagName="drug-withdrawal" Count="12"/>
+    <row Id="455" TagName="heart-attack" Count="20"/>
+    <row Id="456" TagName="angioplasty" Count="5"/>
+    <row Id="457" TagName="sensors" Count="2"/>
+    <row Id="458" TagName="radioactivity" Count="10"/>
+    <row Id="463" TagName="health-informatics" Count="37" ExcerptPostId="18609" WikiPostId="18608"/>
+    <row Id="465" TagName="heart-disease" Count="66" ExcerptPostId="8985" WikiPostId="8984"/>
+    <row Id="468" TagName="diclofenac" Count="6"/>
+    <row Id="471" TagName="sweat" Count="20"/>
+    <row Id="474" TagName="infectious-diseases" Count="79"/>
+    <row Id="475" TagName="rabies" Count="16"/>
+    <row Id="476" TagName="lyme-disease" Count="5"/>
+    <row Id="477" TagName="lungs" Count="67" ExcerptPostId="4736" WikiPostId="4735"/>
+    <row Id="478" TagName="heart-transplant" Count="4"/>
+    <row Id="479" TagName="autoimmune-disease" Count="40"/>
+    <row Id="480" TagName="thyroid" Count="28" ExcerptPostId="4510" WikiPostId="4509"/>
+    <row Id="481" TagName="urine" Count="21"/>
+    <row Id="482" TagName="ear" Count="37" ExcerptPostId="4740" WikiPostId="4739"/>
+    <row Id="485" TagName="light" Count="11"/>
+    <row Id="486" TagName="adhd" Count="11" ExcerptPostId="3117" WikiPostId="3116"/>
+    <row Id="487" TagName="antidepressants" Count="17" ExcerptPostId="13532" WikiPostId="13531"/>
+    <row Id="488" TagName="obsessive-compulsive" Count="4" ExcerptPostId="3115" WikiPostId="3114"/>
+    <row Id="494" TagName="anorexia" Count="4"/>
+    <row Id="495" TagName="eating-disorder" Count="5"/>
+    <row Id="497" TagName="practice-of-medicine" Count="66" ExcerptPostId="3244" WikiPostId="3243"/>
+    <row Id="498" TagName="disease-transmission" Count="100" ExcerptPostId="4380" WikiPostId="4379"/>
+    <row Id="499" TagName="pathophysiology" Count="26" ExcerptPostId="3277" WikiPostId="3276"/>
+    <row Id="501" TagName="epicondylitis" Count="28" ExcerptPostId="5359" WikiPostId="5358"/>
+    <row Id="502" TagName="blood-circulation" Count="44"/>
+    <row Id="503" TagName="congenital" Count="6"/>
+    <row Id="505" TagName="health-outcomes" Count="5"/>
+    <row Id="506" TagName="angina" Count="4" ExcerptPostId="8983" WikiPostId="8982"/>
+    <row Id="508" TagName="stroke" Count="16"/>
+    <row Id="509" TagName="angiography" Count="4"/>
+    <row Id="510" TagName="stress-test" Count="4"/>
+    <row Id="512" TagName="stem-cells" Count="16"/>
+    <row Id="513" TagName="fatigue" Count="22"/>
+    <row Id="517" TagName="irritable-bowel-syndrome" Count="13"/>
+    <row Id="518" TagName="triglycerides" Count="3"/>
+    <row Id="519" TagName="lipids" Count="6"/>
+    <row Id="520" TagName="scoliosis" Count="4"/>
+    <row Id="521" TagName="breastfeeding" Count="16"/>
+    <row Id="522" TagName="miscarriage" Count="5"/>
+    <row Id="523" TagName="vision" Count="30"/>
+    <row Id="524" TagName="body-weight" Count="27"/>
+    <row Id="525" TagName="reproduction" Count="12"/>
+    <row Id="526" TagName="health-education" Count="51"/>
+    <row Id="527" TagName="bath" Count="10"/>
+    <row Id="529" TagName="bone-marrow" Count="8"/>
+    <row Id="531" TagName="evolution" Count="7"/>
+    <row Id="532" TagName="chickenpox" Count="13"/>
+    <row Id="533" TagName="parasites" Count="14"/>
+    <row Id="534" TagName="epidemiology" Count="102"/>
+    <row Id="535" TagName="hiv" Count="32"/>
+    <row Id="536" TagName="diagnosis" Count="46"/>
+    <row Id="537" TagName="memory" Count="18"/>
+    <row Id="539" TagName="birth-defect" Count="3"/>
+    <row Id="542" TagName="shingles" Count="5"/>
+    <row Id="543" TagName="fever" Count="26"/>
+    <row Id="544" TagName="ulcers" Count="14"/>
+    <row Id="546" TagName="medical-imaging" Count="40"/>
+    <row Id="548" TagName="inflammation" Count="27"/>
+    <row Id="549" TagName="nausea" Count="9"/>
+    <row Id="552" TagName="mosquito" Count="8"/>
+    <row Id="554" TagName="allergen" Count="15"/>
+    <row Id="555" TagName="stitches" Count="5"/>
+    <row Id="557" TagName="syncope" Count="4" ExcerptPostId="3853" WikiPostId="3852"/>
+    <row Id="558" TagName="blood-donation" Count="29" ExcerptPostId="3931" WikiPostId="3930"/>
+    <row Id="562" TagName="travel" Count="12"/>
+    <row Id="563" TagName="mechanical-ventilation" Count="15"/>
+    <row Id="564" TagName="achromotrichia" Count="1" ExcerptPostId="3958" WikiPostId="3957"/>
+    <row Id="565" TagName="liquids" Count="8"/>
+    <row Id="566" TagName="arthritis" Count="16"/>
+    <row Id="567" TagName="tuberculosis" Count="15"/>
+    <row Id="568" TagName="crohns" Count="11"/>
+    <row Id="569" TagName="alzheimers" Count="15"/>
+    <row Id="570" TagName="hyperthyroid" Count="12"/>
+    <row Id="571" TagName="hypothyroid" Count="8"/>
+    <row Id="574" TagName="gynecology" Count="20" ExcerptPostId="4047" WikiPostId="4046"/>
+    <row Id="575" TagName="hypnotherapy" Count="2" ExcerptPostId="4071" WikiPostId="4070"/>
+    <row Id="576" TagName="magnesium" Count="13"/>
+    <row Id="577" TagName="supplement" Count="99"/>
+    <row Id="578" TagName="height" Count="13"/>
+    <row Id="580" TagName="trauma" Count="18" ExcerptPostId="24011" WikiPostId="24010"/>
+    <row Id="581" TagName="meditation" Count="9"/>
+    <row Id="584" TagName="measurement" Count="33"/>
+    <row Id="585" TagName="tenocyte" Count="2"/>
+    <row Id="586" TagName="collagen" Count="10"/>
+    <row Id="596" TagName="retainers" Count="6"/>
+    <row Id="598" TagName="legal" Count="15"/>
+    <row Id="600" TagName="hospital" Count="26"/>
+    <row Id="607" TagName="test" Count="61" ExcerptPostId="12601" WikiPostId="12600"/>
+    <row Id="609" TagName="zika-virus" Count="4" ExcerptPostId="5389" WikiPostId="5388"/>
+    <row Id="610" TagName="microcephaly" Count="2" ExcerptPostId="5384" WikiPostId="5383"/>
+    <row Id="615" TagName="microwaves" Count="6" ExcerptPostId="11160" WikiPostId="11159"/>
+    <row Id="616" TagName="naps" Count="4"/>
+    <row Id="621" TagName="coffee" Count="18"/>
+    <row Id="622" TagName="hydration" Count="19"/>
+    <row Id="625" TagName="dementia" Count="10"/>
+    <row Id="626" TagName="genetics" Count="38"/>
+    <row Id="627" TagName="prp" Count="3"/>
+    <row Id="629" TagName="occupational-therapy" Count="1" ExcerptPostId="5158" WikiPostId="5157"/>
+    <row Id="631" TagName="itching" Count="15"/>
+    <row Id="632" TagName="autologous-blood-inject" Count="3"/>
+    <row Id="634" TagName="herpes-simplex" Count="7" ExcerptPostId="5403" WikiPostId="5402"/>
+    <row Id="635" TagName="fibromyalgia" Count="10" ExcerptPostId="5405" WikiPostId="5404"/>
+    <row Id="636" TagName="physiology" Count="44" ExcerptPostId="13139" WikiPostId="13138"/>
+    <row Id="637" TagName="differential-diagnosis" Count="15" ExcerptPostId="5437" WikiPostId="5436"/>
+    <row Id="638" TagName="breast" Count="16"/>
+    <row Id="639" TagName="clothes" Count="16"/>
+    <row Id="640" TagName="swelling" Count="14"/>
+    <row Id="641" TagName="yeast" Count="2"/>
+    <row Id="644" TagName="neuropathy" Count="8"/>
+    <row Id="645" TagName="masturbation" Count="13"/>
+    <row Id="646" TagName="tens" Count="3" ExcerptPostId="5550" WikiPostId="5549"/>
+    <row Id="647" TagName="tongue" Count="3"/>
+    <row Id="648" TagName="opthalmology" Count="12" ExcerptPostId="16570" WikiPostId="16569"/>
+    <row Id="650" TagName="stretching" Count="12" ExcerptPostId="5732" WikiPostId="5731"/>
+    <row Id="654" TagName="patches" Count="3"/>
+    <row Id="657" TagName="toxicology" Count="7"/>
+    <row Id="659" TagName="pancreas" Count="7"/>
+    <row Id="663" TagName="kidney" Count="31"/>
+    <row Id="664" TagName="fungal-infection" Count="10"/>
+    <row Id="666" TagName="sinus" Count="13"/>
+    <row Id="668" TagName="rotator-cuff" Count="6"/>
+    <row Id="669" TagName="insect-bites" Count="8"/>
+    <row Id="672" TagName="physiotherapy" Count="13"/>
+    <row Id="674" TagName="menstruation" Count="11" ExcerptPostId="8880" WikiPostId="8879"/>
+    <row Id="675" TagName="neosporin" Count="4"/>
+    <row Id="678" TagName="health-policy" Count="7"/>
+    <row Id="679" TagName="sperm" Count="9"/>
+    <row Id="680" TagName="sperm-count" Count="5"/>
+    <row Id="682" TagName="growth-hormones" Count="9"/>
+    <row Id="686" TagName="overweight" Count="9"/>
+    <row Id="687" TagName="energy-drinks" Count="4"/>
+    <row Id="690" TagName="valsalva-maneuver" Count="3"/>
+    <row Id="693" TagName="heart" Count="43"/>
+    <row Id="695" TagName="endometriosis" Count="5"/>
+    <row Id="697" TagName="blister" Count="5"/>
+    <row Id="698" TagName="vagina" Count="8"/>
+    <row Id="699" TagName="platelet-count" Count="6"/>
+    <row Id="701" TagName="uterus" Count="10"/>
+    <row Id="702" TagName="contraceptive" Count="5"/>
+    <row Id="703" TagName="pcos" Count="10" ExcerptPostId="24585" WikiPostId="24584"/>
+    <row Id="704" TagName="ovarian-cysts" Count="5"/>
+    <row Id="705" TagName="lupus" Count="10"/>
+    <row Id="706" TagName="add-adhd" Count="7"/>
+    <row Id="707" TagName="fertility" Count="11"/>
+    <row Id="712" TagName="sunlight" Count="16"/>
+    <row Id="714" TagName="triggers" Count="18"/>
+    <row Id="715" TagName="sun-exposure" Count="18"/>
+    <row Id="717" TagName="heat" Count="14"/>
+    <row Id="718" TagName="parkinson" Count="6"/>
+    <row Id="719" TagName="heart-rate" Count="22"/>
+    <row Id="720" TagName="brain-fog" Count="4"/>
+    <row Id="723" TagName="staph-infections" Count="3"/>
+    <row Id="724" TagName="mrsa" Count="3" ExcerptPostId="24589" WikiPostId="24588"/>
+    <row Id="725" TagName="test-results" Count="20"/>
+    <row Id="726" TagName="ketone" Count="7"/>
+    <row Id="729" TagName="antiseptics" Count="7"/>
+    <row Id="731" TagName="blind" Count="5"/>
+    <row Id="732" TagName="ultrasounds" Count="16"/>
+    <row Id="733" TagName="sodium" Count="22"/>
+    <row Id="735" TagName="preservitives" Count="6"/>
+    <row Id="736" TagName="chest" Count="9"/>
+    <row Id="737" TagName="spasms" Count="4"/>
+    <row Id="738" TagName="dizziness" Count="10"/>
+    <row Id="740" TagName="hydrogen-peroxide" Count="10"/>
+    <row Id="741" TagName="scalp" Count="10"/>
+    <row Id="742" TagName="astigmatism" Count="4"/>
+    <row Id="744" TagName="glasses" Count="26"/>
+    <row Id="746" TagName="second-hand-smoke" Count="10"/>
+    <row Id="747" TagName="social" Count="3"/>
+    <row Id="748" TagName="muscle-tremor-twitch" Count="8"/>
+    <row Id="750" TagName="inter-uterine-device-iud" Count="2"/>
+    <row Id="751" TagName="white-blood-count" Count="10"/>
+    <row Id="752" TagName="nasal-congestion" Count="11"/>
+    <row Id="753" TagName="vasomotor-rhinitis" Count="3"/>
+    <row Id="754" TagName="abs" Count="2"/>
+    <row Id="755" TagName="speech" Count="4"/>
+    <row Id="758" TagName="visual-acuity" Count="2"/>
+    <row Id="762" TagName="earplugs-earphones" Count="5"/>
+    <row Id="763" TagName="mouthwash" Count="11"/>
+    <row Id="764" TagName="water-weight" Count="3"/>
+    <row Id="765" TagName="water-retention" Count="5"/>
+    <row Id="766" TagName="bloated-bloating" Count="7"/>
+    <row Id="768" TagName="dry-lips" Count="2"/>
+    <row Id="770" TagName="audiology" Count="7"/>
+    <row Id="771" TagName="tinnitus" Count="14"/>
+    <row Id="772" TagName="vitamin-d" Count="22"/>
+    <row Id="773" TagName="hdl" Count="2"/>
+    <row Id="774" TagName="ldl" Count="4"/>
+    <row Id="775" TagName="circadian-rythym" Count="9"/>
+    <row Id="776" TagName="anemia" Count="7"/>
+    <row Id="777" TagName="b-12-supplements" Count="10"/>
+    <row Id="778" TagName="fasting" Count="24"/>
+    <row Id="779" TagName="circumcision" Count="3"/>
+    <row Id="782" TagName="vertigo" Count="5"/>
+    <row Id="784" TagName="body-mass-index-bmi" Count="12"/>
+    <row Id="785" TagName="anus" Count="9"/>
+    <row Id="787" TagName="organ-donation" Count="12"/>
+    <row Id="788" TagName="physical-therapy" Count="8"/>
+    <row Id="789" TagName="osteoarthritis" Count="5"/>
+    <row Id="790" TagName="joints" Count="13"/>
+    <row Id="791" TagName="shoulder" Count="16"/>
+    <row Id="793" TagName="biopsy" Count="12"/>
+    <row Id="794" TagName="hypnosis" Count="2"/>
+    <row Id="795" TagName="insomnia" Count="17"/>
+    <row Id="796" TagName="tourette-syndrome" Count="3"/>
+    <row Id="798" TagName="hearing-aids" Count="3"/>
+    <row Id="799" TagName="earwax" Count="6"/>
+    <row Id="800" TagName="hearing-impaired" Count="9"/>
+    <row Id="801" TagName="dry-mouth" Count="5"/>
+    <row Id="804" TagName="scar-tissue-scars" Count="50"/>
+    <row Id="805" TagName="moles" Count="5"/>
+    <row Id="806" TagName="melanoma" Count="9"/>
+    <row Id="809" TagName="neck" Count="10"/>
+    <row Id="811" TagName="klippel-feil-syndrome" Count="2"/>
+    <row Id="813" TagName="diarrhea" Count="14"/>
+    <row Id="814" TagName="sleep-aids" Count="14"/>
+    <row Id="815" TagName="drug-tolerance" Count="15"/>
+    <row Id="816" TagName="antihistamines" Count="8"/>
+    <row Id="817" TagName="coloration-discoloration" Count="30"/>
+    <row Id="818" TagName="yeast-infection" Count="6"/>
+    <row Id="820" TagName="chronic-fatigue-synd.-cfs" Count="2"/>
+    <row Id="821" TagName="energy" Count="20"/>
+    <row Id="822" TagName="drug-interactions" Count="29"/>
+    <row Id="823" TagName="wrinkles" Count="9"/>
+    <row Id="825" TagName="shaving-razor-burn" Count="4"/>
+    <row Id="827" TagName="perspiration" Count="3"/>
+    <row Id="828" TagName="body-temperature" Count="28"/>
+    <row Id="831" TagName="ct-scans" Count="18" ExcerptPostId="24039" WikiPostId="24038"/>
+    <row Id="832" TagName="x-rays" Count="22"/>
+    <row Id="833" TagName="endoscopy" Count="7"/>
+    <row Id="836" TagName="tear-torn" Count="2"/>
+    <row Id="837" TagName="self-healing-repairing" Count="15"/>
+    <row Id="838" TagName="saliva" Count="14"/>
+    <row Id="840" TagName="surrogacy" Count="2" ExcerptPostId="11172" WikiPostId="11171"/>
+    <row Id="841" TagName="egg-freezing" Count="1" ExcerptPostId="11168" WikiPostId="11167"/>
+    <row Id="842" TagName="infertile" Count="3"/>
+    <row Id="843" TagName="ovary" Count="4"/>
+    <row Id="845" TagName="transvaginal-ultrasound" Count="4"/>
+    <row Id="846" TagName="epilepsy" Count="7"/>
+    <row Id="848" TagName="joint-replacements" Count="2"/>
+    <row Id="849" TagName="hemoglobin" Count="7" ExcerptPostId="24015" WikiPostId="24014"/>
+    <row Id="850" TagName="fad-diet" Count="9"/>
+    <row Id="851" TagName="drug-tapering-weaning" Count="3"/>
+    <row Id="852" TagName="accutane" Count="5"/>
+    <row Id="854" TagName="gender-sex-identity" Count="7"/>
+    <row Id="855" TagName="downs-syndrome" Count="3"/>
+    <row Id="858" TagName="lasik" Count="6" ExcerptPostId="24151" WikiPostId="24150"/>
+    <row Id="861" TagName="mucus-phlegm" Count="11"/>
+    <row Id="862" TagName="sore-throat" Count="6"/>
+    <row Id="863" TagName="nasal-drip" Count="2"/>
+    <row Id="866" TagName="cysts" Count="4"/>
+    <row Id="868" TagName="bone-density" Count="3"/>
+    <row Id="869" TagName="ejaculation" Count="11"/>
+    <row Id="870" TagName="cornea" Count="4"/>
+    <row Id="871" TagName="artificial-tear-eye-drops" Count="5"/>
+    <row Id="873" TagName="pectus-excavatum" Count="2"/>
+    <row Id="875" TagName="cavity" Count="10"/>
+    <row Id="877" TagName="hernia" Count="4"/>
+    <row Id="878" TagName="abdominal" Count="7"/>
+    <row Id="879" TagName="esophagus" Count="5"/>
+    <row Id="880" TagName="stools" Count="13"/>
+    <row Id="881" TagName="dna" Count="11"/>
+    <row Id="882" TagName="flora" Count="3"/>
+    <row Id="883" TagName="autopsy" Count="7"/>
+    <row Id="884" TagName="procedure-purposes" Count="6"/>
+    <row Id="885" TagName="medical-malpractice" Count="2"/>
+    <row Id="886" TagName="mononucleosis" Count="6" ExcerptPostId="24561" WikiPostId="24560"/>
+    <row Id="889" TagName="contributing-factors" Count="12"/>
+    <row Id="890" TagName="deaf" Count="5"/>
+    <row Id="891" TagName="panic-attack" Count="5"/>
+    <row Id="892" TagName="social-anxiety" Count="3"/>
+    <row Id="893" TagName="light-sensitivity" Count="6"/>
+    <row Id="894" TagName="migraine-auras" Count="2"/>
+    <row Id="895" TagName="led-lights" Count="4"/>
+    <row Id="896" TagName="uv-rays" Count="20"/>
+    <row Id="897" TagName="protection" Count="8"/>
+    <row Id="899" TagName="tmj-jaw-pain" Count="2"/>
+    <row Id="900" TagName="subconscious-stress" Count="4"/>
+    <row Id="901" TagName="mouth-guard" Count="3"/>
+    <row Id="902" TagName="endorphins" Count="4"/>
+    <row Id="903" TagName="lasting-effects-duration" Count="62"/>
+    <row Id="904" TagName="medical-billing" Count="7"/>
+    <row Id="907" TagName="meat" Count="10"/>
+    <row Id="908" TagName="sleep-walking" Count="4"/>
+    <row Id="910" TagName="music-therapy" Count="3"/>
+    <row Id="911" TagName="estrogen" Count="10"/>
+    <row Id="912" TagName="prostate" Count="10"/>
+    <row Id="913" TagName="smell" Count="8"/>
+    <row Id="915" TagName="athletes-foot" Count="8"/>
+    <row Id="916" TagName="hair-transplant" Count="3"/>
+    <row Id="920" TagName="radiation" Count="20"/>
+    <row Id="922" TagName="weather" Count="10"/>
+    <row Id="923" TagName="age" Count="9"/>
+    <row Id="924" TagName="tonsil-tonsillectomy" Count="5"/>
+    <row Id="926" TagName="acidic" Count="18"/>
+    <row Id="927" TagName="enamel" Count="6"/>
+    <row Id="928" TagName="toe" Count="8"/>
+    <row Id="929" TagName="podiatry" Count="7"/>
+    <row Id="931" TagName="insulin-resistance" Count="7"/>
+    <row Id="938" TagName="rheumatology" Count="7"/>
+    <row Id="939" TagName="general-practitioners" Count="6"/>
+    <row Id="940" TagName="different-national-health" Count="15"/>
+    <row Id="942" TagName="gingivitis" Count="8"/>
+    <row Id="944" TagName="tooth-decay" Count="24"/>
+    <row Id="946" TagName="ears-nose-throat-ent" Count="11"/>
+    <row Id="947" TagName="melatonin" Count="16"/>
+    <row Id="949" TagName="waking-up" Count="15"/>
+    <row Id="951" TagName="constipation" Count="9"/>
+    <row Id="955" TagName="nsaids-pain-meds" Count="15" ExcerptPostId="24597" WikiPostId="24596"/>
+    <row Id="956" TagName="acetaminophen" Count="8" ExcerptPostId="24017" WikiPostId="24016"/>
+    <row Id="961" TagName="home-remedy" Count="3"/>
+    <row Id="962" TagName="taste-buds" Count="2"/>
+    <row Id="963" TagName="catarrh" Count="2"/>
+    <row Id="964" TagName="nasal-cavity" Count="3"/>
+    <row Id="965" TagName="tall-height" Count="2"/>
+    <row Id="966" TagName="large-size" Count="2"/>
+    <row Id="967" TagName="risks" Count="76"/>
+    <row Id="968" TagName="sedentary-lifestyle" Count="3"/>
+    <row Id="969" TagName="exercise-induced-asthma" Count="3"/>
+    <row Id="971" TagName="tight-chest" Count="3"/>
+    <row Id="973" TagName="asthma-inhalors" Count="6"/>
+    <row Id="978" TagName="pneumonia" Count="14"/>
+    <row Id="979" TagName="bronchitis" Count="2"/>
+    <row Id="981" TagName="effectiveness" Count="44"/>
+    <row Id="982" TagName="shunt" Count="3"/>
+    <row Id="983" TagName="dialation" Count="3"/>
+    <row Id="985" TagName="ventricular-spetal-defect" Count="2"/>
+    <row Id="986" TagName="guidelines" Count="10"/>
+    <row Id="987" TagName="canker-sores" Count="5"/>
+    <row Id="988" TagName="cold-sores" Count="3"/>
+    <row Id="989" TagName="vitamin-c" Count="11"/>
+    <row Id="990" TagName="bruising-bruise" Count="7"/>
+    <row Id="993" TagName="omega-3" Count="18"/>
+    <row Id="995" TagName="face" Count="25"/>
+    <row Id="996" TagName="topical-cream-gel" Count="38"/>
+    <row Id="1001" TagName="time-of-day" Count="33"/>
+    <row Id="1002" TagName="meal" Count="21"/>
+    <row Id="1003" TagName="diuretics" Count="10"/>
+    <row Id="1007" TagName="soundwaves" Count="9"/>
+    <row Id="1009" TagName="alertness-level" Count="8"/>
+    <row Id="1011" TagName="cold-compress" Count="3"/>
+    <row Id="1012" TagName="elevating-elevation" Count="2"/>
+    <row Id="1013" TagName="body-shape" Count="2"/>
+    <row Id="1014" TagName="diaphragm" Count="2"/>
+    <row Id="1015" TagName="vaginal-delivery" Count="7"/>
+    <row Id="1016" TagName="birth" Count="16"/>
+    <row Id="1018" TagName="c-section" Count="6"/>
+    <row Id="1019" TagName="ovulation" Count="4"/>
+    <row Id="1022" TagName="lubrication" Count="3"/>
+    <row Id="1023" TagName="muscle-relaxers" Count="2"/>
+    <row Id="1026" TagName="taste" Count="7"/>
+    <row Id="1027" TagName="benefits" Count="35"/>
+    <row Id="1028" TagName="reflex-impulse" Count="12"/>
+    <row Id="1029" TagName="yawning-yawn" Count="2"/>
+    <row Id="1030" TagName="hiccup-hiccuping" Count="2"/>
+    <row Id="1031" TagName="function" Count="8"/>
+    <row Id="1033" TagName="cure" Count="18"/>
+    <row Id="1034" TagName="restless-sleep" Count="3"/>
+    <row Id="1035" TagName="floss-flossing" Count="11"/>
+    <row Id="1036" TagName="detox-purge" Count="5"/>
+    <row Id="1037" TagName="pores" Count="5"/>
+    <row Id="1038" TagName="steam" Count="4"/>
+    <row Id="1041" TagName="ratio" Count="9"/>
+    <row Id="1042" TagName="gerd-acid-reflux" Count="17"/>
+    <row Id="1043" TagName="lower-esoph-sphincter-les" Count="3"/>
+    <row Id="1044" TagName="emt" Count="4"/>
+    <row Id="1045" TagName="venous-system" Count="13"/>
+    <row Id="1046" TagName="pressure" Count="4"/>
+    <row Id="1047" TagName="urinary-tract-infect-uti" Count="2"/>
+    <row Id="1052" TagName="scab" Count="4"/>
+    <row Id="1053" TagName="aloe-vera" Count="4"/>
+    <row Id="1055" TagName="benzoyl-peroxide" Count="7"/>
+    <row Id="1057" TagName="antibiotic-cream" Count="3"/>
+    <row Id="1058" TagName="teeth-sensitivity" Count="3"/>
+    <row Id="1062" TagName="myelopathy" Count="3"/>
+    <row Id="1067" TagName="herbs" Count="7"/>
+    <row Id="1068" TagName="medication-directions" Count="4"/>
+    <row Id="1074" TagName="coma-comatose" Count="3"/>
+    <row Id="1075" TagName="instinct" Count="6"/>
+    <row Id="1076" TagName="intravenous" Count="7"/>
+    <row Id="1077" TagName="contractions" Count="2"/>
+    <row Id="1083" TagName="pigment" Count="6"/>
+    <row Id="1085" TagName="vitamin-e" Count="5"/>
+    <row Id="1086" TagName="iris" Count="3"/>
+    <row Id="1087" TagName="pupil" Count="3"/>
+    <row Id="1089" TagName="sociopath" Count="2"/>
+    <row Id="1092" TagName="public-awareness" Count="6"/>
+    <row Id="1096" TagName="psychiatrist-psychiatry" Count="22"/>
+    <row Id="1097" TagName="psychologist-psychology" Count="26"/>
+    <row Id="1098" TagName="sneeze-sneezing" Count="6"/>
+    <row Id="1099" TagName="watery-eyes" Count="2"/>
+    <row Id="1100" TagName="pluck-plucking" Count="3"/>
+    <row Id="1101" TagName="eyebrows" Count="2"/>
+    <row Id="1102" TagName="necrosis-dead-skin" Count="2"/>
+    <row Id="1104" TagName="amputation" Count="5"/>
+    <row Id="1108" TagName="swallow-swallowing" Count="12"/>
+    <row Id="1109" TagName="sexual-diamorphism" Count="3"/>
+    <row Id="1112" TagName="ancient-medicine" Count="4"/>
+    <row Id="1114" TagName="fingers" Count="9"/>
+    <row Id="1119" TagName="chins" Count="3"/>
+    <row Id="1121" TagName="legionnaries-disease" Count="1" ExcerptPostId="9837" WikiPostId="9836"/>
+    <row Id="1122" TagName="rapid-eye-movement-rem" Count="2"/>
+    <row Id="1124" TagName="concentration" Count="11"/>
+    <row Id="1125" TagName="experiment" Count="4"/>
+    <row Id="1126" TagName="metal" Count="13"/>
+    <row Id="1127" TagName="electrolytes" Count="5"/>
+    <row Id="1128" TagName="diluting" Count="4"/>
+    <row Id="1129" TagName="hallucinate-hallucogenic" Count="6"/>
+    <row Id="1134" TagName="fda" Count="12" ExcerptPostId="16947" WikiPostId="16946"/>
+    <row Id="1136" TagName="cheeks" Count="2"/>
+    <row Id="1137" TagName="eyelids" Count="8"/>
+    <row Id="1138" TagName="cystic-acne" Count="7"/>
+    <row Id="1142" TagName="anti-inflammatory" Count="13"/>
+    <row Id="1143" TagName="potassium" Count="15"/>
+    <row Id="1145" TagName="antioxidant" Count="7"/>
+    <row Id="1146" TagName="knuckles" Count="2"/>
+    <row Id="1147" TagName="medical-myths" Count="29" ExcerptPostId="14960" WikiPostId="14959"/>
+    <row Id="1151" TagName="tsh-levels" Count="3"/>
+    <row Id="1154" TagName="fluoride" Count="9"/>
+    <row Id="1155" TagName="bleach-teeth-whitening" Count="6"/>
+    <row Id="1156" TagName="toothpaste" Count="18"/>
+    <row Id="1157" TagName="weightlifting" Count="12"/>
+    <row Id="1160" TagName="heimlich-maneuver" Count="3"/>
+    <row Id="1161" TagName="choking" Count="6"/>
+    <row Id="1162" TagName="ribs-ribcage" Count="6"/>
+    <row Id="1164" TagName="navel-belly-button" Count="2"/>
+    <row Id="1165" TagName="vitamin-k" Count="3"/>
+    <row Id="1166" TagName="nipples" Count="3"/>
+    <row Id="1167" TagName="lactation" Count="3"/>
+    <row Id="1169" TagName="nails" Count="8"/>
+    <row Id="1170" TagName="omega-6" Count="5"/>
+    <row Id="1171" TagName="enzyme" Count="11"/>
+    <row Id="1174" TagName="pheromones" Count="4"/>
+    <row Id="1175" TagName="nostrils" Count="4"/>
+    <row Id="1179" TagName="sociosexual-behavior" Count="5"/>
+    <row Id="1180" TagName="dominant-gene" Count="2"/>
+    <row Id="1181" TagName="recessive-gene" Count="3"/>
+    <row Id="1182" TagName="body-odor" Count="3"/>
+    <row Id="1183" TagName="tear-duct" Count="2"/>
+    <row Id="1184" TagName="colonoscopy" Count="5" ExcerptPostId="24013" WikiPostId="24012"/>
+    <row Id="1185" TagName="colon" Count="13"/>
+    <row Id="1186" TagName="sedative-sedation" Count="7"/>
+    <row Id="1187" TagName="drowsy" Count="6"/>
+    <row Id="1188" TagName="intestine" Count="14"/>
+    <row Id="1190" TagName="pain-tolerance" Count="2"/>
+    <row Id="1193" TagName="implant" Count="8"/>
+    <row Id="1194" TagName="blemishes" Count="5"/>
+    <row Id="1195" TagName="hemorrhage" Count="4"/>
+    <row Id="1196" TagName="pancreatitis" Count="5"/>
+    <row Id="1198" TagName="internal-bleeding" Count="7"/>
+    <row Id="1199" TagName="icu-intensive-care-unit" Count="12"/>
+    <row Id="1200" TagName="aspergers-syndrome" Count="3"/>
+    <row Id="1202" TagName="speech-therapy" Count="2"/>
+    <row Id="1207" TagName="impetigo" Count="2"/>
+    <row Id="1208" TagName="abscess-lesions" Count="5"/>
+    <row Id="1209" TagName="pimple" Count="2"/>
+    <row Id="1211" TagName="acupressure" Count="2"/>
+    <row Id="1213" TagName="anti-nausea" Count="3"/>
+    <row Id="1214" TagName="motion-sickness" Count="7"/>
+    <row Id="1215" TagName="acupressure-wristband" Count="2"/>
+    <row Id="1218" TagName="endemic" Count="2"/>
+    <row Id="1220" TagName="center-disease-control" Count="6"/>
+    <row Id="1221" TagName="cytokines" Count="4"/>
+    <row Id="1222" TagName="epi-pen-epinephrine" Count="3"/>
+    <row Id="1225" TagName="antigen" Count="5"/>
+    <row Id="1226" TagName="pulse" Count="7"/>
+    <row Id="1228" TagName="erectile-dysfunction" Count="14"/>
+    <row Id="1229" TagName="orgasm-climax" Count="6"/>
+    <row Id="1230" TagName="libido" Count="8"/>
+    <row Id="1233" TagName="blood-type" Count="11"/>
+    <row Id="1236" TagName="glossophobia" Count="2"/>
+    <row Id="1238" TagName="stammering-stuttering" Count="2"/>
+    <row Id="1239" TagName="shake-tremble-fidget" Count="5"/>
+    <row Id="1240" TagName="adrenaline" Count="3"/>
+    <row Id="1241" TagName="flatulence-gas-fart" Count="10"/>
+    <row Id="1244" TagName="fermentation" Count="2"/>
+    <row Id="1245" TagName="gut-microbiota-flora" Count="11" ExcerptPostId="24006" WikiPostId="24005"/>
+    <row Id="1249" TagName="melanin" Count="10"/>
+    <row Id="1253" TagName="arteries-artery" Count="6"/>
+    <row Id="1259" TagName="placenta" Count="2"/>
+    <row Id="1260" TagName="postpartum-depression" Count="3"/>
+    <row Id="1261" TagName="fetus" Count="10"/>
+    <row Id="1263" TagName="oxytocin" Count="2"/>
+    <row Id="1265" TagName="measles" Count="4"/>
+    <row Id="1267" TagName="malaria" Count="4"/>
+    <row Id="1269" TagName="who-world-health-org" Count="17"/>
+    <row Id="1275" TagName="beta-blockers" Count="4"/>
+    <row Id="1276" TagName="cluster-headache" Count="2"/>
+    <row Id="1277" TagName="rebound-headache" Count="2"/>
+    <row Id="1279" TagName="sinus-headache" Count="4"/>
+    <row Id="1281" TagName="vocal-chords" Count="2"/>
+    <row Id="1282" TagName="androgen" Count="2"/>
+    <row Id="1286" TagName="heartburn" Count="3"/>
+    <row Id="1288" TagName="throat" Count="9"/>
+    <row Id="1290" TagName="epidermolysis-bullosa" Count="2" ExcerptPostId="14149" WikiPostId="14148"/>
+    <row Id="1296" TagName="testicles" Count="9"/>
+    <row Id="1303" TagName="tooth-extraction" Count="7"/>
+    <row Id="1306" TagName="physical-abuse" Count="4"/>
+    <row Id="1312" TagName="warts" Count="3" ExcerptPostId="11162" WikiPostId="11161"/>
+    <row Id="1313" TagName="genital-warts" Count="2" ExcerptPostId="11164" WikiPostId="11163"/>
+    <row Id="1318" TagName="bladder-infection" Count="2"/>
+    <row Id="1319" TagName="urethra" Count="6"/>
+    <row Id="1321" TagName="osteoporosis" Count="5"/>
+    <row Id="1322" TagName="ph-levels" Count="8"/>
+    <row Id="1324" TagName="bleeding" Count="14"/>
+    <row Id="1325" TagName="thigh" Count="3"/>
+    <row Id="1327" TagName="equilibrium-balance" Count="3"/>
+    <row Id="1329" TagName="brushing-teeth" Count="18"/>
+    <row Id="1330" TagName="insulin" Count="15"/>
+    <row Id="1331" TagName="protein-supplement" Count="3"/>
+    <row Id="1335" TagName="streptococcal-infection" Count="2"/>
+    <row Id="1338" TagName="ethanol" Count="3"/>
+    <row Id="1340" TagName="hangover-hungover" Count="4"/>
+    <row Id="1341" TagName="blood-alcohol-levels" Count="4"/>
+    <row Id="1342" TagName="goosebumps" Count="2"/>
+    <row Id="1344" TagName="fight-or-flight" Count="3"/>
+    <row Id="1347" TagName="hair-follicle" Count="5"/>
+    <row Id="1351" TagName="pre-suregery-pre-op" Count="2"/>
+    <row Id="1352" TagName="bone-fractures" Count="25"/>
+    <row Id="1353" TagName="tibia" Count="7"/>
+    <row Id="1354" TagName="jaw" Count="4"/>
+    <row Id="1358" TagName="expiration-dates" Count="10"/>
+    <row Id="1360" TagName="snore-snoring" Count="3"/>
+    <row Id="1361" TagName="ketosis" Count="13"/>
+    <row Id="1362" TagName="keto-adaption" Count="3"/>
+    <row Id="1363" TagName="fatty-acids" Count="7"/>
+    <row Id="1366" TagName="blood-vessels" Count="8"/>
+    <row Id="1368" TagName="spleen" Count="2"/>
+    <row Id="1369" TagName="alcoholism" Count="6"/>
+    <row Id="1373" TagName="halitosis-bad-breath" Count="5"/>
+    <row Id="1377" TagName="blood-letting-leeches" Count="2"/>
+    <row Id="1379" TagName="dopamine" Count="3"/>
+    <row Id="1383" TagName="bipolar-disorder" Count="2"/>
+    <row Id="1384" TagName="intoeing-pigeon-toe-foot" Count="2"/>
+    <row Id="1394" TagName="toothbrush" Count="12"/>
+    <row Id="1395" TagName="plaque" Count="3"/>
+    <row Id="1401" TagName="hyperventilation" Count="5"/>
+    <row Id="1403" TagName="suicide" Count="10"/>
+    <row Id="1404" TagName="tunnel-vision" Count="2"/>
+    <row Id="1405" TagName="nicotine" Count="21"/>
+    <row Id="1406" TagName="fire-safety" Count="3"/>
+    <row Id="1407" TagName="smoke-inhalation" Count="13"/>
+    <row Id="1408" TagName="unconsciousness" Count="9"/>
+    <row Id="1409" TagName="carbon-monoxide-poisoning" Count="5"/>
+    <row Id="1411" TagName="social-cues" Count="2"/>
+    <row Id="1414" TagName="carbohydrates" Count="21"/>
+    <row Id="1415" TagName="meal-replacement" Count="6"/>
+    <row Id="1416" TagName="ulcerative-colitis" Count="5"/>
+    <row Id="1418" TagName="tobacco" Count="10"/>
+    <row Id="1420" TagName="plastic-surgery" Count="31"/>
+    <row Id="1422" TagName="dentures" Count="2"/>
+    <row Id="1423" TagName="carbon-dioxide" Count="6"/>
+    <row Id="1425" TagName="environmental-conditions" Count="17"/>
+    <row Id="1426" TagName="walking" Count="10"/>
+    <row Id="1428" TagName="organ-damage" Count="6"/>
+    <row Id="1430" TagName="irreversible-damage" Count="14"/>
+    <row Id="1431" TagName="eye-strain" Count="15"/>
+    <row Id="1436" TagName="laser-hair-removal" Count="4"/>
+    <row Id="1438" TagName="glomerular-filtration-grf" Count="2"/>
+    <row Id="1442" TagName="medical-ethics" Count="19"/>
+    <row Id="1443" TagName="humerus" Count="2"/>
+    <row Id="1444" TagName="weight-gain" Count="3"/>
+    <row Id="1446" TagName="whey-protein" Count="3"/>
+    <row Id="1448" TagName="tampons" Count="2"/>
+    <row Id="1452" TagName="mood-moodiness" Count="4"/>
+    <row Id="1455" TagName="corticosteroids" Count="9"/>
+    <row Id="1457" TagName="technology" Count="20"/>
+    <row Id="1458" TagName="keratoconus" Count="2"/>
+    <row Id="1459" TagName="water-temperature" Count="11"/>
+    <row Id="1460" TagName="ear-infection" Count="2"/>
+    <row Id="1461" TagName="groin" Count="5"/>
+    <row Id="1465" TagName="cat-scratch-fever" Count="2"/>
+    <row Id="1467" TagName="zoonotic-diseases" Count="5"/>
+    <row Id="1476" TagName="speech-pathology" Count="2"/>
+    <row Id="1477" TagName="benzodiazepines" Count="5"/>
+    <row Id="1478" TagName="anti-anxiety-meds" Count="3"/>
+    <row Id="1479" TagName="geography" Count="10"/>
+    <row Id="1481" TagName="environmental-climate" Count="10"/>
+    <row Id="1482" TagName="violent-behavior" Count="3"/>
+    <row Id="1483" TagName="social-anthropology" Count="6"/>
+    <row Id="1488" TagName="sebum-oil" Count="2"/>
+    <row Id="1489" TagName="earlobes" Count="2"/>
+    <row Id="1490" TagName="cartilage" Count="4"/>
+    <row Id="1493" TagName="dreams" Count="5"/>
+    <row Id="1505" TagName="baking-soda" Count="6"/>
+    <row Id="1506" TagName="shampoo" Count="6"/>
+    <row Id="1507" TagName="hair-conditioner" Count="2"/>
+    <row Id="1508" TagName="greasy-hair" Count="2"/>
+    <row Id="1513" TagName="bile" Count="3"/>
+    <row Id="1514" TagName="bilirubin" Count="5"/>
+    <row Id="1515" TagName="jaundice" Count="2"/>
+    <row Id="1526" TagName="ethnicity" Count="3"/>
+    <row Id="1531" TagName="drowning" Count="3"/>
+    <row Id="1537" TagName="development-disorder" Count="3"/>
+    <row Id="1539" TagName="self-esteem" Count="2"/>
+    <row Id="1540" TagName="sensitivity-intolerance" Count="4"/>
+    <row Id="1551" TagName="suffocation" Count="2"/>
+    <row Id="1554" TagName="genetic-predisposition" Count="9"/>
+    <row Id="1564" TagName="copd" Count="2"/>
+    <row Id="1567" TagName="dyes" Count="6"/>
+    <row Id="1568" TagName="cosmetics" Count="12"/>
+    <row Id="1569" TagName="carcinogens" Count="9"/>
+    <row Id="1570" TagName="pesticides" Count="3"/>
+    <row Id="1573" TagName="menieres-disease" Count="3"/>
+    <row Id="1581" TagName="blood-shot-eyes" Count="3"/>
+    <row Id="1585" TagName="multiple-sclerosis" Count="9"/>
+    <row Id="1587" TagName="mouth" Count="7"/>
+    <row Id="1592" TagName="skull" Count="2"/>
+    <row Id="1594" TagName="sutures" Count="8"/>
+    <row Id="1595" TagName="gout" Count="4"/>
+    <row Id="1598" TagName="chew-chewing" Count="5"/>
+    <row Id="1601" TagName="urine-test" Count="11"/>
+    <row Id="1603" TagName="kidney-disease" Count="9"/>
+    <row Id="1604" TagName="frequency" Count="14"/>
+    <row Id="1605" TagName="proper-use" Count="3"/>
+    <row Id="1607" TagName="drug-administration" Count="10"/>
+    <row Id="1608" TagName="procedural-behavior" Count="4"/>
+    <row Id="1609" TagName="procedural-expectations" Count="15"/>
+    <row Id="1615" TagName="optic-nerve" Count="5"/>
+    <row Id="1616" TagName="color-blindness" Count="5"/>
+    <row Id="1617" TagName="hippocampus" Count="2"/>
+    <row Id="1619" TagName="elbow" Count="2"/>
+    <row Id="1621" TagName="auditory-cortex" Count="2"/>
+    <row Id="1623" TagName="blood-clotting" Count="12"/>
+    <row Id="1624" TagName="needles" Count="8"/>
+    <row Id="1627" TagName="orthotics" Count="6"/>
+    <row Id="1630" TagName="appendix" Count="2"/>
+    <row Id="1631" TagName="appendicitis" Count="3"/>
+    <row Id="1633" TagName="appendectomy" Count="2"/>
+    <row Id="1634" TagName="arsenic" Count="3"/>
+    <row Id="1635" TagName="livestock" Count="3"/>
+    <row Id="1636" TagName="turmeric" Count="3"/>
+    <row Id="1637" TagName="sinus-congestion" Count="3"/>
+    <row Id="1638" TagName="gallstone" Count="6"/>
+    <row Id="1639" TagName="bile-biliary-duct" Count="2"/>
+    <row Id="1642" TagName="dermatillomania" Count="2"/>
+    <row Id="1643" TagName="breaking-habits" Count="7"/>
+    <row Id="1647" TagName="inner-ear" Count="5"/>
+    <row Id="1648" TagName="stain-removal-teeth" Count="4"/>
+    <row Id="1649" TagName="white-strips-teeth" Count="2"/>
+    <row Id="1652" TagName="face-mask-respirator" Count="37"/>
+    <row Id="1653" TagName="periorbital-dark-circles" Count="2"/>
+    <row Id="1655" TagName="blood-sugar" Count="15"/>
+    <row Id="1663" TagName="heartbeat" Count="13"/>
+    <row Id="1666" TagName="dental-floss-pick" Count="2"/>
+    <row Id="1671" TagName="emergency-room" Count="9"/>
+    <row Id="1672" TagName="lumbago-low-back-pain" Count="7"/>
+    <row Id="1674" TagName="neurodegenerative-disease" Count="3"/>
+    <row Id="1682" TagName="healthy-cooking" Count="21"/>
+    <row Id="1683" TagName="artificial-flavor" Count="4"/>
+    <row Id="1685" TagName="medical-training" Count="6"/>
+    <row Id="1690" TagName="shape-form-pattern" Count="3"/>
+    <row Id="1691" TagName="sprain-strain-twist" Count="4"/>
+    <row Id="1693" TagName="ear-irrigation" Count="2"/>
+    <row Id="1698" TagName="zinc" Count="13"/>
+    <row Id="1700" TagName="myopia-nearsightedness" Count="11"/>
+    <row Id="1702" TagName="csf-cerebrospinal-fluid" Count="4"/>
+    <row Id="1703" TagName="myofascial-pain-syndrome" Count="4"/>
+    <row Id="1704" TagName="referred-pain" Count="2"/>
+    <row Id="1705" TagName="neurotransmitter" Count="8"/>
+    <row Id="1708" TagName="biochemistry" Count="24"/>
+    <row Id="1709" TagName="neuroscience" Count="16"/>
+    <row Id="1713" TagName="sexual-penetration" Count="4"/>
+    <row Id="1714" TagName="airborne-transmission" Count="12"/>
+    <row Id="1719" TagName="vector" Count="2"/>
+    <row Id="1723" TagName="pre-ejaculate-cum" Count="2"/>
+    <row Id="1724" TagName="erection" Count="6"/>
+    <row Id="1725" TagName="sexual-arousal" Count="5"/>
+    <row Id="1726" TagName="heel" Count="2"/>
+    <row Id="1730" TagName="limbs" Count="5"/>
+    <row Id="1736" TagName="stretch-marks-striae" Count="2"/>
+    <row Id="1738" TagName="acupuncture" Count="2"/>
+    <row Id="1743" TagName="dehydratration" Count="9"/>
+    <row Id="1745" TagName="ganglion-cysts" Count="2"/>
+    <row Id="1748" TagName="texture" Count="3"/>
+    <row Id="1753" TagName="stimulants" Count="12"/>
+    <row Id="1756" TagName="myocardial-infarction" Count="4" ExcerptPostId="12876" WikiPostId="12875"/>
+    <row Id="1757" TagName="coronary-bypass" Count="4"/>
+    <row Id="1760" TagName="ovum-egg-oocyte" Count="2"/>
+    <row Id="1763" TagName="lymph-nodes" Count="5"/>
+    <row Id="1764" TagName="calluses" Count="3"/>
+    <row Id="1766" TagName="substance-abuse" Count="5"/>
+    <row Id="1767" TagName="penetrate-trauma-wound" Count="5"/>
+    <row Id="1768" TagName="knife-stab-wound" Count="5"/>
+    <row Id="1775" TagName="spinal-cord-compression" Count="3"/>
+    <row Id="1777" TagName="health-insurance" Count="5"/>
+    <row Id="1780" TagName="crispr-cas-system" Count="2"/>
+    <row Id="1781" TagName="altitude-sickness" Count="2"/>
+    <row Id="1782" TagName="footwear" Count="8"/>
+    <row Id="1784" TagName="strength-training" Count="7"/>
+    <row Id="1787" TagName="missed-dose" Count="3"/>
+    <row Id="1788" TagName="icd-intrntl-classif-disea" Count="11"/>
+    <row Id="1791" TagName="gargling-gargle" Count="3"/>
+    <row Id="1795" TagName="rinsing-mouth" Count="6"/>
+    <row Id="1801" TagName="parenting" Count="7"/>
+    <row Id="1802" TagName="anatomy" Count="30"/>
+    <row Id="1805" TagName="proton-pump-inhibitors" Count="4"/>
+    <row Id="1806" TagName="adolescents-teenagers" Count="5"/>
+    <row Id="1807" TagName="fodmap" Count="7"/>
+    <row Id="1808" TagName="eyelash" Count="2"/>
+    <row Id="1811" TagName="insect-repellents" Count="2"/>
+    <row Id="1812" TagName="insecticides" Count="2"/>
+    <row Id="1813" TagName="saline" Count="4"/>
+    <row Id="1815" TagName="fructose" Count="7"/>
+    <row Id="1816" TagName="contact-lenses" Count="7"/>
+    <row Id="1817" TagName="brands" Count="4"/>
+    <row Id="1820" TagName="mental-exhaustion" Count="8"/>
+    <row Id="1821" TagName="runny-nose" Count="4"/>
+    <row Id="1822" TagName="humidifier" Count="4"/>
+    <row Id="1823" TagName="yoga" Count="5"/>
+    <row Id="1826" TagName="amphetamine" Count="7"/>
+    <row Id="1827" TagName="facial-hair" Count="8"/>
+    <row Id="1829" TagName="decomposition" Count="2"/>
+    <row Id="1832" TagName="hemolysis" Count="2"/>
+    <row Id="1833" TagName="atrial-septal-defect-asd" Count="2"/>
+    <row Id="1836" TagName="root-canal" Count="7"/>
+    <row Id="1840" TagName="eardrum" Count="4"/>
+    <row Id="1841" TagName="perforate-perforation" Count="3"/>
+    <row Id="1842" TagName="barotrauma" Count="5"/>
+    <row Id="1843" TagName="aviation" Count="4"/>
+    <row Id="1847" TagName="ringworm" Count="4"/>
+    <row Id="1848" TagName="starvation" Count="5"/>
+    <row Id="1849" TagName="malnutrition" Count="10"/>
+    <row Id="1850" TagName="electrocardiogram" Count="14"/>
+    <row Id="1851" TagName="hymen" Count="3"/>
+    <row Id="1853" TagName="torso" Count="2"/>
+    <row Id="1855" TagName="e-coli" Count="4"/>
+    <row Id="1856" TagName="chlorine" Count="2"/>
+    <row Id="1857" TagName="e-cigarette-vape" Count="7"/>
+    <row Id="1860" TagName="cramps" Count="3"/>
+    <row Id="1861" TagName="hematoma" Count="2"/>
+    <row Id="1862" TagName="tailbone-coccyx" Count="3"/>
+    <row Id="1869" TagName="lactase" Count="4"/>
+    <row Id="1870" TagName="myelin-sheath" Count="3"/>
+    <row Id="1878" TagName="oral-sex" Count="6"/>
+    <row Id="1880" TagName="condom" Count="7"/>
+    <row Id="1881" TagName="genital-herpes" Count="2"/>
+    <row Id="1884" TagName="creatinine" Count="4"/>
+    <row Id="1887" TagName="flush-face-body" Count="2"/>
+    <row Id="1888" TagName="head-lice" Count="3"/>
+    <row Id="1890" TagName="aerobic" Count="4"/>
+    <row Id="1891" TagName="crp-c-reactive-protein" Count="3"/>
+    <row Id="1893" TagName="cervical-vertebrae-cv" Count="2"/>
+    <row Id="1896" TagName="tetanus-shot" Count="4"/>
+    <row Id="1897" TagName="fibula" Count="6"/>
+    <row Id="1898" TagName="femur" Count="3"/>
+    <row Id="1901" TagName="scapula" Count="2"/>
+    <row Id="1902" TagName="pain-management" Count="12"/>
+    <row Id="1911" TagName="mercury" Count="8" ExcerptPostId="12131" WikiPostId="12130"/>
+    <row Id="1913" TagName="safety" Count="20"/>
+    <row Id="1918" TagName="depth-perception" Count="2"/>
+    <row Id="1920" TagName="alkaline" Count="4"/>
+    <row Id="1922" TagName="epistaxis--bloody-nose" Count="3"/>
+    <row Id="1924" TagName="hyperpigmentation" Count="5"/>
+    <row Id="1927" TagName="angular-spatial-resoluton" Count="2"/>
+    <row Id="1933" TagName="cravings" Count="5"/>
+    <row Id="1935" TagName="thrombocytopenia" Count="2"/>
+    <row Id="1936" TagName="carrier-genetic" Count="5"/>
+    <row Id="1937" TagName="traumatic-encephalopathy" Count="2"/>
+    <row Id="1944" TagName="bandaid-plaster-bandage" Count="4"/>
+    <row Id="1947" TagName="amniotic-cavity" Count="3"/>
+    <row Id="1948" TagName="laparoscopy-keyhole" Count="4"/>
+    <row Id="1949" TagName="opioids-opiates" Count="10"/>
+    <row Id="1950" TagName="1st-trimester" Count="4"/>
+    <row Id="1952" TagName="3rd-trimester" Count="2"/>
+    <row Id="1953" TagName="blurry-vision" Count="4"/>
+    <row Id="1954" TagName="pregnancy-test" Count="5"/>
+    <row Id="1957" TagName="varicose-veins" Count="5"/>
+    <row Id="1958" TagName="exertion" Count="3"/>
+    <row Id="1971" TagName="preventative-medicine" Count="13"/>
+    <row Id="1976" TagName="short-term-memory-loss" Count="5"/>
+    <row Id="1977" TagName="qualifiy-certify" Count="4"/>
+    <row Id="1978" TagName="thrombosis" Count="7"/>
+    <row Id="1979" TagName="calf-muscles-calves" Count="2"/>
+    <row Id="1980" TagName="loss-of-appetite" Count="6"/>
+    <row Id="1988" TagName="indigestion" Count="4"/>
+    <row Id="1991" TagName="sweeteners" Count="5"/>
+    <row Id="1993" TagName="rubbing-alcohol-isopropyl" Count="4"/>
+    <row Id="1994" TagName="epa-eicosapentaenoic-acid" Count="4"/>
+    <row Id="1995" TagName="dha-docosahexaenoic-acid" Count="4"/>
+    <row Id="2002" TagName="prenatal-vitamins" Count="2"/>
+    <row Id="2004" TagName="pre-diabetes" Count="5"/>
+    <row Id="2011" TagName="aed-defibrillator" Count="4"/>
+    <row Id="2013" TagName="body-piercings" Count="2"/>
+    <row Id="2017" TagName="otc-over-the-counter" Count="7"/>
+    <row Id="2019" TagName="mastocytoma" Count="2"/>
+    <row Id="2021" TagName="developmental-milestones" Count="2"/>
+    <row Id="2032" TagName="race" Count="4"/>
+    <row Id="2033" TagName="type-2-diabetes" Count="30"/>
+    <row Id="2034" TagName="appetite" Count="3"/>
+    <row Id="2041" TagName="gait-walk-abnormalities" Count="5"/>
+    <row Id="2044" TagName="bursitis" Count="2"/>
+    <row Id="2052" TagName="jock-itch-tinea-cruris" Count="3"/>
+    <row Id="2054" TagName="decibels" Count="2"/>
+    <row Id="2055" TagName="middle-ear" Count="2"/>
+    <row Id="2058" TagName="syphilis" Count="4"/>
+    <row Id="2062" TagName="analgesics" Count="16" ExcerptPostId="24563" WikiPostId="24562"/>
+    <row Id="2066" TagName="cracked-broken-tooth" Count="7"/>
+    <row Id="2067" TagName="screen-time-limits" Count="4"/>
+    <row Id="2068" TagName="class-schedule-of-drugs" Count="2"/>
+    <row Id="2074" TagName="leg-length-discrepancy" Count="2"/>
+    <row Id="2076" TagName="fatty-liver-disease" Count="4"/>
+    <row Id="2077" TagName="honey" Count="5"/>
+    <row Id="2080" TagName="trachoma" Count="2"/>
+    <row Id="2087" TagName="antibodies" Count="27"/>
+    <row Id="2088" TagName="euthanasia" Count="3"/>
+    <row Id="2095" TagName="heroin" Count="3"/>
+    <row Id="2098" TagName="hypoglycemia" Count="3"/>
+    <row Id="2104" TagName="scotomas-blind-spots" Count="2"/>
+    <row Id="2106" TagName="scintilla-flashing-lights" Count="2"/>
+    <row Id="2107" TagName="paresthesia" Count="3" ExcerptPostId="24643" WikiPostId="24642"/>
+    <row Id="2108" TagName="central-nervous-system" Count="6"/>
+    <row Id="2120" TagName="graft-versus-host-disease" Count="1" ExcerptPostId="11330" WikiPostId="11329"/>
+    <row Id="2124" TagName="flat-feet-fallen-arches" Count="2"/>
+    <row Id="2125" TagName="stethoscope" Count="2"/>
+    <row Id="2127" TagName="vegan" Count="3"/>
+    <row Id="2132" TagName="second-opinion" Count="2"/>
+    <row Id="2134" TagName="obesity" Count="17"/>
+    <row Id="2147" TagName="cortisol" Count="12"/>
+    <row Id="2148" TagName="heat-exhaustion" Count="2"/>
+    <row Id="2149" TagName="heatstroke" Count="2"/>
+    <row Id="2152" TagName="stents" Count="6"/>
+    <row Id="2156" TagName="emotional-eating" Count="3"/>
+    <row Id="2159" TagName="spf-sun-protection-factor" Count="4"/>
+    <row Id="2162" TagName="double-vision" Count="3"/>
+    <row Id="2166" TagName="soy" Count="3"/>
+    <row Id="2169" TagName="gynecomastia-man-boobs" Count="8" ExcerptPostId="16841" WikiPostId="16840"/>
+    <row Id="2170" TagName="gmo" Count="2"/>
+    <row Id="2171" TagName="collapsed-lung" Count="2"/>
+    <row Id="2174" TagName="gluten" Count="5"/>
+    <row Id="2175" TagName="celiac-disease" Count="3"/>
+    <row Id="2176" TagName="edible" Count="3"/>
+    <row Id="2179" TagName="clostridium-difficile" Count="3"/>
+    <row Id="2187" TagName="iq-intelligence" Count="6"/>
+    <row Id="2190" TagName="muscular-atrophy" Count="4"/>
+    <row Id="2191" TagName="muscular-dystrophy" Count="3"/>
+    <row Id="2197" TagName="dental-braces" Count="5"/>
+    <row Id="2198" TagName="teeth-alignment" Count="5"/>
+    <row Id="2199" TagName="lithium" Count="3"/>
+    <row Id="2203" TagName="cbc-complete-blood-count" Count="5"/>
+    <row Id="2204" TagName="body-building" Count="5"/>
+    <row Id="2206" TagName="nose-blowing" Count="4"/>
+    <row Id="2210" TagName="legs" Count="7"/>
+    <row Id="2219" TagName="hypochondria" Count="3"/>
+    <row Id="2221" TagName="munchausen-syndrome" Count="2"/>
+    <row Id="2229" TagName="nosemaphobia" Count="2"/>
+    <row Id="2232" TagName="embryo" Count="3"/>
+    <row Id="2236" TagName="noise-induce-hearing-harm" Count="6"/>
+    <row Id="2238" TagName="gunshot-wounds" Count="6"/>
+    <row Id="2241" TagName="posterior-bulging-discs" Count="2"/>
+    <row Id="2252" TagName="glycated-hemoglobin-hba1c" Count="6"/>
+    <row Id="2253" TagName="urea" Count="2"/>
+    <row Id="2254" TagName="hand-sanitizers" Count="10"/>
+    <row Id="2255" TagName="antibacterial-resistance" Count="8"/>
+    <row Id="2257" TagName="chemotherapy" Count="10"/>
+    <row Id="2259" TagName="metastatic-cancer" Count="7"/>
+    <row Id="2261" TagName="oxygen" Count="16"/>
+    <row Id="2263" TagName="acl-ligament" Count="4"/>
+    <row Id="2264" TagName="dorsal-upper-back-side" Count="4"/>
+    <row Id="2267" TagName="spider-bites" Count="2"/>
+    <row Id="2270" TagName="hyponatremia" Count="3"/>
+    <row Id="2280" TagName="filariasis" Count="3"/>
+    <row Id="2281" TagName="hypodermic" Count="2"/>
+    <row Id="2285" TagName="air-pressure" Count="3"/>
+    <row Id="2288" TagName="air-filter-purifier" Count="3"/>
+    <row Id="2289" TagName="water-filter-purifier" Count="7"/>
+    <row Id="2290" TagName="contaminate" Count="7"/>
+    <row Id="2291" TagName="public-sanitation" Count="2"/>
+    <row Id="2292" TagName="hay-fever" Count="2"/>
+    <row Id="2296" TagName="white-matter" Count="2"/>
+    <row Id="2302" TagName="carbonated-carbonation" Count="5"/>
+    <row Id="2304" TagName="synthetic-fabric" Count="3"/>
+    <row Id="2305" TagName="waterproof-repellent" Count="2"/>
+    <row Id="2307" TagName="legumes" Count="2"/>
+    <row Id="2310" TagName="spondylosis" Count="2"/>
+    <row Id="2311" TagName="asymptomatic" Count="10"/>
+    <row Id="2317" TagName="capillary-capillaries" Count="2"/>
+    <row Id="2323" TagName="cadavears" Count="2"/>
+    <row Id="2335" TagName="nocturia" Count="2"/>
+    <row Id="2336" TagName="refrigerate-refrigeration" Count="5"/>
+    <row Id="2341" TagName="keloids" Count="3"/>
+    <row Id="2349" TagName="hair-color" Count="5"/>
+    <row Id="2351" TagName="internal-organs" Count="13"/>
+    <row Id="2355" TagName="juice" Count="9"/>
+    <row Id="2356" TagName="tonsillitis" Count="8"/>
+    <row Id="2359" TagName="embolism" Count="2"/>
+    <row Id="2360" TagName="medical-history" Count="12"/>
+    <row Id="2362" TagName="lips" Count="3"/>
+    <row Id="2367" TagName="anastomosis" Count="2"/>
+    <row Id="2368" TagName="cotton-swabs-q-tips" Count="4"/>
+    <row Id="2369" TagName="ear-canal" Count="3"/>
+    <row Id="2371" TagName="cotton-balls" Count="2"/>
+    <row Id="2372" TagName="thermometer" Count="3" ExcerptPostId="12072" WikiPostId="12071"/>
+    <row Id="2378" TagName="chromosomes" Count="3"/>
+    <row Id="2379" TagName="vehicle-car-accident" Count="5"/>
+    <row Id="2386" TagName="sound-amplification-psap" Count="2"/>
+    <row Id="2387" TagName="breath-freshners" Count="2"/>
+    <row Id="2389" TagName="spearmint" Count="2"/>
+    <row Id="2393" TagName="iodine" Count="4"/>
+    <row Id="2403" TagName="exercise-ball" Count="2"/>
+    <row Id="2405" TagName="brain-exercises" Count="6"/>
+    <row Id="2411" TagName="prophylaxis" Count="3"/>
+    <row Id="2425" TagName="cause-and-effect" Count="21"/>
+    <row Id="2431" TagName="emotional-abuse" Count="4"/>
+    <row Id="2432" TagName="epigenetic" Count="2"/>
+    <row Id="2438" TagName="apnea-holding-breath" Count="3" ExcerptPostId="11612" WikiPostId="11611"/>
+    <row Id="2439" TagName="conceive-conception" Count="5"/>
+    <row Id="2440" TagName="asthma-attack" Count="4"/>
+    <row Id="2441" TagName="exacerbate-exacerbation" Count="2"/>
+    <row Id="2449" TagName="animal-dander" Count="2"/>
+    <row Id="2450" TagName="detergent" Count="5"/>
+    <row Id="2451" TagName="gender-specific" Count="6"/>
+    <row Id="2458" TagName="urination" Count="7"/>
+    <row Id="2459" TagName="seasonal-allergies" Count="7"/>
+    <row Id="2460" TagName="allergen-immunotherapy" Count="5"/>
+    <row Id="2461" TagName="h.-helycobacter-pylori" Count="3"/>
+    <row Id="2464" TagName="bleach" Count="4"/>
+    <row Id="2466" TagName="toilet-bowl" Count="3"/>
+    <row Id="2469" TagName="sunscreen-sunblock" Count="7"/>
+    <row Id="2471" TagName="hookworm" Count="3"/>
+    <row Id="2472" TagName="barefoot" Count="5"/>
+    <row Id="2484" TagName="semen" Count="4" ExcerptPostId="16985" WikiPostId="16984"/>
+    <row Id="2486" TagName="immunosuppressant" Count="12"/>
+    <row Id="2489" TagName="glaucoma" Count="8"/>
+    <row Id="2490" TagName="intraocular-pressure-iop" Count="4"/>
+    <row Id="2498" TagName="defecation" Count="3" ExcerptPostId="24577" WikiPostId="24576"/>
+    <row Id="2508" TagName="exsanguination" Count="3"/>
+    <row Id="2509" TagName="dysmenorrhea" Count="3"/>
+    <row Id="2510" TagName="rigor-mortis" Count="2"/>
+    <row Id="2511" TagName="skeleton-skeletal-system" Count="2"/>
+    <row Id="2515" TagName="enlarged-prostate-bph" Count="2"/>
+    <row Id="2519" TagName="field-of-vision-fov-test" Count="2"/>
+    <row Id="2524" TagName="hyperactivity-hyperactive" Count="2"/>
+    <row Id="2531" TagName="zoonotic-viruses" Count="6"/>
+    <row Id="2532" TagName="standing" Count="4"/>
+    <row Id="2535" TagName="cholecystectomy" Count="2"/>
+    <row Id="2539" TagName="visible-optical-spectrum" Count="2"/>
+    <row Id="2569" TagName="trachea-windpipe" Count="2"/>
+    <row Id="2577" TagName="uric-acid" Count="5"/>
+    <row Id="2587" TagName="breast-milk" Count="2"/>
+    <row Id="2590" TagName="sulphur" Count="2"/>
+    <row Id="2591" TagName="alcohol-withdrawal" Count="2"/>
+    <row Id="2596" TagName="second-degree-burn" Count="2"/>
+    <row Id="2597" TagName="buttocks" Count="3"/>
+    <row Id="2598" TagName="self-help" Count="3"/>
+    <row Id="2601" TagName="brca-gene-test" Count="2"/>
+    <row Id="2606" TagName="foreign-body-object" Count="5"/>
+    <row Id="2607" TagName="sitting" Count="9"/>
+    <row Id="2608" TagName="animal-bites" Count="6"/>
+    <row Id="2610" TagName="dissolve" Count="3"/>
+    <row Id="2611" TagName="food-water-storage" Count="2"/>
+    <row Id="2612" TagName="temples" Count="2"/>
+    <row Id="2613" TagName="range-of-motion" Count="2"/>
+    <row Id="2621" TagName="scratch-scratching" Count="3"/>
+    <row Id="2624" TagName="dry-skin" Count="5"/>
+    <row Id="2625" TagName="multi-vitamin" Count="6"/>
+    <row Id="2633" TagName="brain-damage" Count="10"/>
+    <row Id="2634" TagName="shave-shaving" Count="4"/>
+    <row Id="2635" TagName="shaving-cream" Count="3"/>
+    <row Id="2637" TagName="relax-relaxation" Count="3"/>
+    <row Id="2640" TagName="deviated-nasal-septum" Count="3"/>
+    <row Id="2644" TagName="laugh-laughter-laughing" Count="2"/>
+    <row Id="2646" TagName="outer-external-ear" Count="2"/>
+    <row Id="2649" TagName="respiratory-system" Count="28"/>
+    <row Id="2655" TagName="popping-cracking-joints" Count="4"/>
+    <row Id="2656" TagName="white-noise" Count="4"/>
+    <row Id="2657" TagName="air-temperature" Count="9"/>
+    <row Id="2658" TagName="database" Count="13"/>
+    <row Id="2659" TagName="ssri-selective-serotonin" Count="9" ExcerptPostId="13631" WikiPostId="13630"/>
+    <row Id="2660" TagName="ebm-evidence-based-med" Count="6"/>
+    <row Id="2662" TagName="eye-exam" Count="3"/>
+    <row Id="2663" TagName="altitude-topography" Count="2"/>
+    <row Id="2665" TagName="thirst-thirsty" Count="2"/>
+    <row Id="2669" TagName="hunger-hungry" Count="3"/>
+    <row Id="2673" TagName="nuts" Count="4"/>
+    <row Id="2674" TagName="hormonal-imbalance" Count="10"/>
+    <row Id="2680" TagName="weight-bearing-activity" Count="4"/>
+    <row Id="2690" TagName="diastema-teeth-gaps" Count="2"/>
+    <row Id="2695" TagName="hearing-loss" Count="2"/>
+    <row Id="2697" TagName="recumbent-lying-down" Count="3"/>
+    <row Id="2700" TagName="tear-of-a-meniscus" Count="4"/>
+    <row Id="2708" TagName="dyslexia-dyslexic" Count="2"/>
+    <row Id="2716" TagName="thyroperoxidase-tpo" Count="3"/>
+    <row Id="2719" TagName="small-intenstines" Count="3"/>
+    <row Id="2720" TagName="absorption-absorb" Count="14"/>
+    <row Id="2721" TagName="induce" Count="4"/>
+    <row Id="2723" TagName="crash-test-dummies" Count="2"/>
+    <row Id="2724" TagName="fleas" Count="3"/>
+    <row Id="2727" TagName="sibo" Count="5"/>
+    <row Id="2730" TagName="elderly-seniors-aged-old" Count="8"/>
+    <row Id="2733" TagName="aftershave" Count="2"/>
+    <row Id="2736" TagName="prostatitis" Count="7"/>
+    <row Id="2737" TagName="gelatin" Count="2"/>
+    <row Id="2741" TagName="middle-aged-adults" Count="3"/>
+    <row Id="2742" TagName="young-adults" Count="4"/>
+    <row Id="2746" TagName="gastritis" Count="2"/>
+    <row Id="2748" TagName="nootropic-smart-drugs" Count="5"/>
+    <row Id="2750" TagName="hyperplasia" Count="3"/>
+    <row Id="2753" TagName="pelvis-pelvic-bone" Count="3"/>
+    <row Id="2754" TagName="masseuse" Count="2"/>
+    <row Id="2755" TagName="forehead" Count="6"/>
+    <row Id="2759" TagName="shrapnel-bullets" Count="2"/>
+    <row Id="2760" TagName="nurse-practitioner" Count="5"/>
+    <row Id="2763" TagName="toddler" Count="3"/>
+    <row Id="2764" TagName="catalyst" Count="2"/>
+    <row Id="2767" TagName="transplant-rejection" Count="4"/>
+    <row Id="2777" TagName="drinks" Count="24"/>
+    <row Id="2790" TagName="tactile-touch" Count="3"/>
+    <row Id="2791" TagName="forgetfulness" Count="2"/>
+    <row Id="2796" TagName="apothecary" Count="2"/>
+    <row Id="2797" TagName="med-symbol-abbreviations" Count="6"/>
+    <row Id="2800" TagName="ndc-ntl-drug-codes" Count="4"/>
+    <row Id="2801" TagName="healthcare-data" Count="19"/>
+    <row Id="2802" TagName="glycemic-index" Count="5"/>
+    <row Id="2804" TagName="periodontal-pathogen" Count="2"/>
+    <row Id="2805" TagName="thumb" Count="3" ExcerptPostId="13566" WikiPostId="13565"/>
+    <row Id="2807" TagName="environmental-psychology" Count="5"/>
+    <row Id="2808" TagName="calm-soothing-strategies" Count="3"/>
+    <row Id="2810" TagName="cabg-coronary-art-bypass" Count="4"/>
+    <row Id="2815" TagName="half-life" Count="4"/>
+    <row Id="2816" TagName="male" Count="15"/>
+    <row Id="2821" TagName="female" Count="12"/>
+    <row Id="2826" TagName="trigeminal-nerve" Count="2"/>
+    <row Id="2828" TagName="sudoriferous-sweat-glands" Count="2"/>
+    <row Id="2829" TagName="genitals" Count="2"/>
+    <row Id="2835" TagName="breathalyzer" Count="2"/>
+    <row Id="2836" TagName="septoplasty" Count="3"/>
+    <row Id="2837" TagName="grains" Count="2"/>
+    <row Id="2842" TagName="coroner" Count="2"/>
+    <row Id="2853" TagName="frozen-freeze" Count="5"/>
+    <row Id="2856" TagName="stable-condition" Count="2"/>
+    <row Id="2866" TagName="smile-smiling" Count="2"/>
+    <row Id="2869" TagName="concussion" Count="5"/>
+    <row Id="2877" TagName="dandruff" Count="6"/>
+    <row Id="2880" TagName="herbicide" Count="2"/>
+    <row Id="2881" TagName="chiropractor" Count="3"/>
+    <row Id="2885" TagName="ligament" Count="6"/>
+    <row Id="2894" TagName="snacks-snacking-snack" Count="2"/>
+    <row Id="2908" TagName="correlation-link-relate" Count="11"/>
+    <row Id="2912" TagName="children-kids" Count="11"/>
+    <row Id="2920" TagName="dermatochalasis-saggy" Count="3"/>
+    <row Id="2928" TagName="chronic-pain" Count="5"/>
+    <row Id="2937" TagName="united-states" Count="22"/>
+    <row Id="2938" TagName="public-health" Count="27"/>
+    <row Id="2948" TagName="anesthesia" Count="25"/>
+    <row Id="2951" TagName="physical-health" Count="27"/>
+    <row Id="2962" TagName="stockholm-syndrome" Count="3"/>
+    <row Id="2963" TagName="intubation" Count="3"/>
+    <row Id="2967" TagName="hypothermia" Count="5"/>
+    <row Id="2976" TagName="laryngitis" Count="2"/>
+    <row Id="3007" TagName="drunk-inebriated" Count="2"/>
+    <row Id="3015" TagName="vasoconstriction" Count="6"/>
+    <row Id="3017" TagName="helicobacter-pylori" Count="5" ExcerptPostId="23572" WikiPostId="23571"/>
+    <row Id="3018" TagName="antacid" Count="3"/>
+    <row Id="3032" TagName="abrasion-cut-laceration" Count="4"/>
+    <row Id="3040" TagName="vitamin-b" Count="4"/>
+    <row Id="3066" TagName="puberty" Count="2"/>
+    <row Id="3085" TagName="hypoxia" Count="7"/>
+    <row Id="3115" TagName="hashimoto-thyroiditis" Count="3"/>
+    <row Id="3117" TagName="toxic-fumes" Count="4"/>
+    <row Id="3129" TagName="desquamation-skin-peeling" Count="2"/>
+    <row Id="3151" TagName="pulse-oximeter" Count="4"/>
+    <row Id="3162" TagName="blepharitis" Count="2"/>
+    <row Id="3168" TagName="cinnamon" Count="2"/>
+    <row Id="3184" TagName="bone-scan" Count="3"/>
+    <row Id="3186" TagName="nuclear-radiation" Count="4"/>
+    <row Id="3190" TagName="salmonella" Count="2"/>
+    <row Id="3196" TagName="rda-recommend-daily-allow" Count="3"/>
+    <row Id="3216" TagName="alternative-medicine" Count="4"/>
+    <row Id="3218" TagName="maoi" Count="1" ExcerptPostId="13530" WikiPostId="13529"/>
+    <row Id="3219" TagName="tachyphylaxis" Count="1" ExcerptPostId="13528" WikiPostId="13527"/>
+    <row Id="3220" TagName="macronutrient" Count="10"/>
+    <row Id="3228" TagName="thorax" Count="1" ExcerptPostId="14110" WikiPostId="14109"/>
+    <row Id="3229" TagName="pneumothorax" Count="2"/>
+    <row Id="3231" TagName="periodontitis" Count="3"/>
+    <row Id="3236" TagName="cardiac-arrest" Count="5"/>
+    <row Id="3246" TagName="metformin" Count="5"/>
+    <row Id="3265" TagName="therapy" Count="5"/>
+    <row Id="3269" TagName="pcp" Count="2"/>
+    <row Id="3271" TagName="nicotinamide-riboside" Count="2"/>
+    <row Id="3272" TagName="anti-aging" Count="7"/>
+    <row Id="3283" TagName="dehydration" Count="8"/>
+    <row Id="3284" TagName="rice" Count="2"/>
+    <row Id="3286" TagName="bioelectromagnetics" Count="16" ExcerptPostId="16487" WikiPostId="16486"/>
+    <row Id="3287" TagName="std" Count="5"/>
+    <row Id="3289" TagName="complications" Count="6"/>
+    <row Id="3292" TagName="reference-request" Count="28"/>
+    <row Id="3296" TagName="lipomastia" Count="1" ExcerptPostId="16843" WikiPostId="16842"/>
+    <row Id="3306" TagName="morphology" Count="3"/>
+    <row Id="3310" TagName="integrative-medicine" Count="2"/>
+    <row Id="3311" TagName="demodex" Count="3"/>
+    <row Id="3312" TagName="mechanism-of-action" Count="9" ExcerptPostId="18593" WikiPostId="18592"/>
+    <row Id="3315" TagName="nudity-nude-naked" Count="2"/>
+    <row Id="3317" TagName="skin-absorption" Count="4"/>
+    <row Id="3318" TagName="toxoplasmosis" Count="4"/>
+    <row Id="3327" TagName="obgyn" Count="2"/>
+    <row Id="3330" TagName="tropical-disease" Count="2"/>
+    <row Id="3346" TagName="obstetrician" Count="2"/>
+    <row Id="3369" TagName="communication" Count="3"/>
+    <row Id="3372" TagName="latex" Count="2"/>
+    <row Id="3373" TagName="melanocytes" Count="2"/>
+    <row Id="3376" TagName="epidural" Count="4"/>
+    <row Id="3381" TagName="histamine" Count="5"/>
+    <row Id="3382" TagName="blood-brain-barrier" Count="2"/>
+    <row Id="3390" TagName="organ-transplant" Count="11"/>
+    <row Id="3393" TagName="antipsychotic" Count="4"/>
+    <row Id="3394" TagName="electroconvulsive-therapy" Count="2"/>
+    <row Id="3412" TagName="hpv" Count="7"/>
+    <row Id="3417" TagName="nociceptor" Count="3"/>
+    <row Id="3429" TagName="fingerprint" Count="2"/>
+    <row Id="3437" TagName="incision" Count="2"/>
+    <row Id="3444" TagName="postpartum-body" Count="3"/>
+    <row Id="3447" TagName="plasma" Count="4"/>
+    <row Id="3449" TagName="wilsons-disease" Count="2"/>
+    <row Id="3453" TagName="misophonia" Count="2"/>
+    <row Id="3461" TagName="calculi-stones" Count="2"/>
+    <row Id="3464" TagName="phobia" Count="2"/>
+    <row Id="3472" TagName="raw-food" Count="2"/>
+    <row Id="3480" TagName="ischaemia" Count="4"/>
+    <row Id="3484" TagName="length-of-time" Count="6"/>
+    <row Id="3488" TagName="antiperspirant-deodorant" Count="2"/>
+    <row Id="3495" TagName="nasal-drops" Count="2"/>
+    <row Id="3498" TagName="cells" Count="5"/>
+    <row Id="3527" TagName="polio" Count="2"/>
+    <row Id="3532" TagName="epidermis" Count="2"/>
+    <row Id="3546" TagName="laxative" Count="3"/>
+    <row Id="3549" TagName="forensic-pathology" Count="4"/>
+    <row Id="3559" TagName="obstetrics" Count="87"/>
+    <row Id="3560" TagName="childbirth" Count="8"/>
+    <row Id="3565" TagName="microbiology" Count="6"/>
+    <row Id="3575" TagName="european-union" Count="2"/>
+    <row Id="3595" TagName="gene-therapy" Count="2"/>
+    <row Id="3597" TagName="sciatic-nerve" Count="3"/>
+    <row Id="3599" TagName="psoriasis" Count="2"/>
+    <row Id="3600" TagName="cannabidiol" Count="3"/>
+    <row Id="3601" TagName="cannabinoids" Count="3"/>
+    <row Id="3604" TagName="creatine" Count="2"/>
+    <row Id="3609" TagName="video" Count="2"/>
+    <row Id="3614" TagName="vitiligo" Count="9"/>
+    <row Id="3616" TagName="ebola" Count="2"/>
+    <row Id="3621" TagName="medical-classification" Count="1" ExcerptPostId="20562" WikiPostId="20561"/>
+    <row Id="3624" TagName="cardiac-physiology" Count="4"/>
+    <row Id="3625" TagName="embryology" Count="2"/>
+    <row Id="3628" TagName="covid-19" Count="457" ExcerptPostId="21735" WikiPostId="21734"/>
+    <row Id="3634" TagName="cpap" Count="3"/>
+    <row Id="3635" TagName="laboratory" Count="3"/>
+    <row Id="3636" TagName="pcr" Count="11"/>
+    <row Id="3638" TagName="coronavirus" Count="109"/>
+    <row Id="3640" TagName="ace2" Count="4"/>
+    <row Id="3641" TagName="personal-protective-equipment" Count="12"/>
+    <row Id="3646" TagName="anosmia" Count="2"/>
+    <row Id="3648" TagName="sars-cov-2" Count="56" ExcerptPostId="21783" WikiPostId="21782"/>
+    <row Id="3649" TagName="ppe" Count="5"/>
+    <row Id="3650" TagName="infection-control" Count="5"/>
+    <row Id="3652" TagName="quarantine" Count="4"/>
+    <row Id="3653" TagName="covid-19-datasets" Count="23"/>
+    <row Id="3658" TagName="non-pharmaceutical-interventions" Count="5"/>
+    <row Id="3662" TagName="regulatory-agencies" Count="10"/>
+    <row Id="3666" TagName="viral-load" Count="2"/>
+    <row Id="3667" TagName="coagulation" Count="2"/>
+    <row Id="3669" TagName="hydroxychloroquine" Count="2"/>
+    <row Id="3670" TagName="mortality-rate" Count="8"/>
+    <row Id="3672" TagName="sterilization" Count="4"/>
+    <row Id="3673" TagName="pathogenesis" Count="2"/>
+    <row Id="3674" TagName="pandemic" Count="4"/>
+    <row Id="3675" TagName="dengue" Count="2"/>
+    <row Id="3677" TagName="damp" Count="1"/>
+    <row Id="3679" TagName="albumin" Count="1"/>
+    <row Id="3680" TagName="edema" Count="3"/>
+    <row Id="3681" TagName="resveratrol" Count="1"/>
+    <row Id="3682" TagName="antivirals" Count="8" ExcerptPostId="24128" WikiPostId="24127"/>
+    <row Id="3683" TagName="rare-diseases" Count="1"/>
+    <row Id="3684" TagName="haemopoiesis" Count="1"/>
+    <row Id="3685" TagName="aft1f" Count="1"/>
+    <row Id="3687" TagName="preeclampsia" Count="1"/>
+    <row Id="3688" TagName="vegf" Count="1"/>
+    <row Id="3689" TagName="placentalcirculation" Count="1"/>
+    <row Id="3690" TagName="podology" Count="1"/>
+    <row Id="3691" TagName="pressure-injuries" Count="1"/>
+    <row Id="3693" TagName="dermatomes" Count="1"/>
+    <row Id="3694" TagName="untagged" Count="1"/>
+    <row Id="3695" TagName="andrology" Count="5" ExcerptPostId="24559" WikiPostId="24558"/>
+    <row Id="3696" TagName="cataract" Count="1"/>
+    <row Id="3697" TagName="bioacoustics" Count="1"/>
+    <row Id="3698" TagName="artificial-insemination" Count="2"/>
+    <row Id="3699" TagName="australia" Count="1"/>
+    <row Id="3700" TagName="implanted-devices" Count="1"/>
+    <row Id="3701" TagName="pacemakers" Count="1"/>
+    <row Id="3702" TagName="emf" Count="1"/>
+    <row Id="3703" TagName="basal-cell-carcinoma" Count="22"/>
+</tags>
