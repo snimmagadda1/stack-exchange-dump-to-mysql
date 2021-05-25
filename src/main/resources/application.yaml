@@ -54,9 +54,3 @@ import:
     postHistory: "PostHistory.xml"
     users: "Users.xml"
     votes: "Votes.xml"
-
-export:
-  file:
-    csv: "target/export/persons.csv"
-    txt: "target/export/persons.txt"
-
