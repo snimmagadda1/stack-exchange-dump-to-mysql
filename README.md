@@ -28,7 +28,17 @@ docker run -e APP_DATASOURCE_URL=XXXXX -e ... snimmagadda/stacke-batch-mysql:lat
 ```
 
 To run from source, `app.datasource.xxx` properties should be updated accordingly. Metrics job/task metadata by default
-are output to an in-memory HSQL DB which can be overridden with the `spring.datasource.xxx` properties.
+are output to an in-memory HSQL DB which can be overridden with the `spring.datasource.xxx` properties. Example yaml:
+
+```
+app:
+  datasource:
+    dialect: org.hibernate.dialect.MySQLDialect
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/stacke"
+    username: "root"
+    password: "password"
+```
 
 Streamlined ways to import are a W.I.P. For now, manual configuration of application.yaml is required, and running from
 source is the simplest way to pass in custom datafiles. Once properties are configured, you can run locally with the
