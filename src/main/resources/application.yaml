@@ -39,10 +39,9 @@ app:
   datasource:
     dialect: org.hibernate.dialect.MySQLDialect
     driver-class-name: org.mariadb.jdbc.Driver
-#    url: "jdbc:hsqldb:mem:appdb;DB_CLOSE_DELAY=-1"
-#    username: "user"
-#    password: "pass"
-#    schema: schema-base.sql
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/stacke
+    username: ${MYSQL_USER:batch}
+    password: ${MYSQL_PWD:password}
 
 
 import:
