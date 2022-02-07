@@ -42,7 +42,6 @@ public class ReadersConfig {
   public ItemReader multiPostsReader() {
     Resource[] resources = null;
     Resource fileSystem = new FileSystemResource(dir + "/" + postsFile);
-    System.out.println("READING FILES AT THE DIR " + dir + postsFile);
     resources = new Resource[] {fileSystem};
     MultiResourceItemReader<String> reader = new MultiResourceItemReader<>();
     reader.setResources(resources);
